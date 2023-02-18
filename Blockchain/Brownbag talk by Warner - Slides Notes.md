@@ -30,3 +30,5 @@
 - Decentralisation could instill new confidence and trust in the currecny for users.
 
 Added something on surface go 3
+
+Added something on thinkpad
