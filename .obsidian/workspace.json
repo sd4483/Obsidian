@@ -8,27 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c2f39d631611ee08",
+            "id": "2c47cbfd29cb0e59",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimisation Module/Paper Review.md",
+                "file": "Blockchain/Brownbag talk by Warner - Slides Notes.md",
                 "mode": "preview",
                 "source": false
               }
             }
-          },
-          {
-            "id": "2c47cbfd29cb0e59",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Blockchain/Brownbag talk by Warner - Slides Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Blockchain/Brownbag talk by Warner - Slides Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Blockchain/Brownbag talk by Warner - Slides Notes.md"
+              }
             }
           }
         ]
@@ -153,15 +148,15 @@
   },
   "active": "2c47cbfd29cb0e59",
   "lastOpenFiles": [
+    "Exam Prep/Operating Systems.md",
     "Optimisation Module/Paper Review.md",
     "Optimisation Module/Course Work.md",
+    "Optimisation Module/Strengths.md",
+    "Blockchain/Brownbag talk by Warner - Slides Notes.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "fsdfs.md",
-    "Exam Prep/Operating Systems.md",
     "Exam Prep/Embedded Systems.md",
-    "Optimisation Module/Strengths.md",
-    "Optimisation Module/Weaknesses.md",
-    "BBO.md"
+    "Optimisation Module/Weaknesses.md"
   ]
 }
