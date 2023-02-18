@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Optimisation Module/Course Work.md",
-                "mode": "source",
+                "file": "Optimisation Module/Paper Review.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Optimisation Module/Course Work.md",
+                "file": "Optimisation Module/Paper Review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Optimisation Module/Course Work.md",
+                "file": "Optimisation Module/Paper Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Optimisation Module/Course Work.md"
+                "file": "Optimisation Module/Paper Review.md"
               }
             }
           }
@@ -148,12 +148,12 @@
   },
   "active": "c2f39d631611ee08",
   "lastOpenFiles": [
+    "Optimisation Module/Course Work.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "fsdfs.md",
     "Exam Prep/Operating Systems.md",
     "Exam Prep/Embedded Systems.md",
-    "Optimisation Module/Course Work.md",
     "Optimisation Module/Strengths.md",
     "Optimisation Module/Weaknesses.md",
     "Optimisation Module/Paper Review.md",

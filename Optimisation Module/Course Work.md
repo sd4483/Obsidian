@@ -32,6 +32,3 @@ During these development projects, the quality of a particular rocker panel desi
 ~~They develop an automated pipeline based on ten real world problem instances~~
 
 ~~understanding why the widely used Black-Box Optimization Problem sets might not be the appropriate way to characterize real-world Finite Element simulation based engineering optimization problems that are highyl non-linear in nature.~~
-
-
-Something to add here.
