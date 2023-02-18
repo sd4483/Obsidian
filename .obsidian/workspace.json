@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "efa6f1e2b5797350",
+        "id": "b7e4350b839fd440",
         "type": "tabs",
         "children": [
           {
-            "id": "604e340ecc2e1a9a",
+            "id": "26d6b42ba05ee8c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "466fd58ee827d646",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blockchain/Brownbag talk by Warner - Slides Notes.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blockchain/Brownbag talk by Warner - Slides Notes.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blockchain/Brownbag talk by Warner - Slides Notes.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -146,10 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "604e340ecc2e1a9a",
+  "active": "466fd58ee827d646",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Blockchain/Brownbag talk by Warner - Slides Notes.md",
+    "conflict-files-obsidian-git.md",
     "Exam Prep/Operating Systems.md",
     "Optimisation Module/Paper Review.md",
     "Optimisation Module/Course Work.md",
