@@ -32,11 +32,3 @@
 Added something on surface go 3
 
 Added something on thinkpad
-
-yoyo i think it's working but not very smooth but okay it gets the job done
-
-let me try one more time
-
-yes it worked
-
-one more time
