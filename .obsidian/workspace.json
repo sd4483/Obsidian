@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "a3a6f22bb24a7f37",
+    "type": "split",
+    "children": [
+      {
+        "id": "efa6f1e2b5797350",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c2f39d631611ee08",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "07d7d4e6162b048b",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4031a91eda3d161",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "870c4fb62a4cc2b7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e6391841147660ab",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c2a70143857a1614",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 201.5
+  },
+  "right": {
+    "id": "391e7a62d370867d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ceba85ae982b3435",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6602bad24a942922",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b605880a15961031",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "44a3096a2c38d19d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8f016b834dd29aeb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "870c4fb62a4cc2b7",
+  "lastOpenFiles": [
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "fsdfs.md",
+    "Exam Prep/Operating Systems.md",
+    "Exam Prep/Embedded Systems.md",
+    "Optimisation Module/Course Work.md",
+    "Optimisation Module/Strengths.md",
+    "Optimisation Module/Weaknesses.md",
+    "Optimisation Module/Paper Review.md",
+    "BBO.md"
+  ]
+}
