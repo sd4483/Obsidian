@@ -28,3 +28,5 @@
 - Power/control of the currency is spread among many users using and contributing to the currency
 - Failure of a single user or entity doesn't fail the entire currency
 - Decentralisation could instill new confidence and trust in the currecny for users.
+
+Adde
