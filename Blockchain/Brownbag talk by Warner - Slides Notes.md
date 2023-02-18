@@ -33,5 +33,4 @@ Added something on surface go 3
 
 Added something on thinkpad
 
-
-
+yoyo i think it's working but not very sm
