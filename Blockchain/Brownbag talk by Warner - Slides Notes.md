@@ -29,4 +29,4 @@
 - Failure of a single user or entity doesn't fail the entire currency
 - Decentralisation could instill new confidence and trust in the currecny for users.
 
-Adde
+Added something on surface go 3
