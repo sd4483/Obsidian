@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2c47cbfd29cb0e59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Brownbag talk by Warner - Slides Notes.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Optimisation Module/Paper Review.md",
+                "file": "Brownbag talk by Warner - Slides Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Optimisation Module/Paper Review.md",
+                "file": "Brownbag talk by Warner - Slides Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Optimisation Module/Paper Review.md"
+                "file": "Brownbag talk by Warner - Slides Notes.md"
               }
             }
           }
@@ -146,8 +159,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c2f39d631611ee08",
+  "active": "2c47cbfd29cb0e59",
   "lastOpenFiles": [
+    "Optimisation Module/Paper Review.md",
     "Optimisation Module/Course Work.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
@@ -156,7 +170,6 @@
     "Exam Prep/Embedded Systems.md",
     "Optimisation Module/Strengths.md",
     "Optimisation Module/Weaknesses.md",
-    "Optimisation Module/Paper Review.md",
     "BBO.md"
   ]
 }
