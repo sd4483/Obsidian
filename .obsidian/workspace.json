@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2c47cbfd29cb0e59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Blockchain/Brownbag talk by Warner - Slides Notes.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "604e340ecc2e1a9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Blockchain/Brownbag talk by Warner - Slides Notes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Blockchain/Brownbag talk by Warner - Slides Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Blockchain/Brownbag talk by Warner - Slides Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "Blockchain/Brownbag talk by Warner - Slides Notes.md"
               }
             }
           }
@@ -161,6 +148,7 @@
   },
   "active": "604e340ecc2e1a9a",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "Blockchain/Brownbag talk by Warner - Slides Notes.md",
     "Exam Prep/Operating Systems.md",
     "Optimisation Module/Paper Review.md",
@@ -169,7 +157,6 @@
     "Untitled 1.canvas",
     "Untitled.canvas",
     "fsdfs.md",
-    "Exam Prep/Embedded Systems.md",
-    "Optimisation Module/Weaknesses.md"
+    "Exam Prep/Embedded Systems.md"
   ]
 }
