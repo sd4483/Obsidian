@@ -18,4 +18,7 @@ Nodes are connected over a network
 
 But not sure whther a node is connected or not, a problem that needs to be solved
 
-It all started with one node, running on the creatro
+It all started with one node, running on the creators computer. Other nodes connected to that over a network.
+
+In bitcoin, we use UTXO (Unspent transaction) mode to verify the transactions
+
