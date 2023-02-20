@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "a82cb74c798ef1e6",
+    "id": "a3a6f22bb24a7f37",
     "type": "split",
     "children": [
       {
-        "id": "35b04cdeec1f33ab",
+        "id": "6cf0b6c03365f043",
         "type": "tabs",
         "children": [
           {
-            "id": "5f17ba612659c0e6",
+            "id": "03cbc0d7d55fe43d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a2673972d3c0fd19",
+    "id": "07d7d4e6162b048b",
     "type": "split",
     "children": [
       {
-        "id": "da06035004bc741e",
+        "id": "d4031a91eda3d161",
         "type": "tabs",
         "children": [
           {
-            "id": "5b0bad2691c7fd37",
+            "id": "870c4fb62a4cc2b7",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "ab510b868d65315c",
+            "id": "e6391841147660ab",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "a2127a61f8290328",
+            "id": "c2a70143857a1614",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -69,19 +69,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 212.5,
-    "collapsed": true
+    "width": 201.5
   },
   "right": {
-    "id": "a63c459796b4e1c9",
+    "id": "391e7a62d370867d",
     "type": "split",
     "children": [
       {
-        "id": "f207eca25d9bbd5b",
+        "id": "ceba85ae982b3435",
         "type": "tabs",
         "children": [
           {
-            "id": "a6f29df6f6dd59ed",
+            "id": "6602bad24a942922",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -98,7 +97,7 @@
             }
           },
           {
-            "id": "2cf739cf2229f06a",
+            "id": "b605880a15961031",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -110,7 +109,7 @@
             }
           },
           {
-            "id": "98ff1f68a16d63c8",
+            "id": "44a3096a2c38d19d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -121,7 +120,7 @@
             }
           },
           {
-            "id": "f6fe9fa81ebf8040",
+            "id": "8f016b834dd29aeb",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -147,13 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5f17ba612659c0e6",
+  "active": "03cbc0d7d55fe43d",
   "lastOpenFiles": [
-    "Software Testing/Lecture 01 (Introduction).md",
     "Blockchain/Brownbag talk by Warner - Slides Notes.md",
-    "Software Testing/Lecture 03 (Control Flow Testing).md",
-    "Everything Else/Questions.md",
-    "Everything Else/Enhancing Human Collaborations and Interactions with Data and Intelligence-Driven Systems, CDT Integrated MSc and PhD.md",
-    "Software Testing/Lecture 02 (White Box Testing Basics).md"
+    "Blockchain/Lecture 04.md",
+    "conflict-files-obsidian-git.md",
+    "Optimisation Module/Course Work.md",
+    "Optimisation Module/Paper Review.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "fsdfs.md",
+    "Exam Prep/Operating Systems.md",
+    "Exam Prep/Embedded Systems.md"
   ]
 }
