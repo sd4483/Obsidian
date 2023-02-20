@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5f17ba612659c0e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Blockchain/Lecture 04.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Testing/Lecture 01 (Introduction).md",
+                "file": "Blockchain/Lecture 04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Testing/Lecture 01 (Introduction).md",
+                "file": "Blockchain/Lecture 04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Testing/Lecture 01 (Introduction).md"
+                "file": "Blockchain/Lecture 04.md"
               }
             }
           }
@@ -146,13 +159,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5ffd3764cf1b50b7",
+  "active": "5f17ba612659c0e6",
   "lastOpenFiles": [
+    "Software Testing/Lecture 01 (Introduction).md",
     "Blockchain/Brownbag talk by Warner - Slides Notes.md",
     "Software Testing/Lecture 03 (Control Flow Testing).md",
     "Everything Else/Questions.md",
     "Everything Else/Enhancing Human Collaborations and Interactions with Data and Intelligence-Driven Systems, CDT Integrated MSc and PhD.md",
-    "Software Testing/Lecture 02 (White Box Testing Basics).md",
-    "Software Testing/Lecture 01 (Introduction).md"
+    "Software Testing/Lecture 02 (White Box Testing Basics).md"
   ]
 }
