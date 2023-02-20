@@ -13,62 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blockchain/Brownbag talk by Warner - Slides Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0f43c97221b9fc46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Software Testing/Lecture 01 (Introduction).md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "21d634480c3f9c3e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software Testing/Lecture 02 (White Box Testing Basics).md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f2e93c0d61c0add2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software Testing/Lecture 03 (Control Flow Testing).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7c0a4b5e506eaaeb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Everything Else/Questions.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 212.5
   },
   "right": {
     "id": "a63c459796b4e1c9",
@@ -134,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Everything Else/Questions.md",
+                "file": "Software Testing/Lecture 01 (Introduction).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Everything Else/Questions.md",
+                "file": "Software Testing/Lecture 01 (Introduction).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Everything Else/Questions.md"
+                "file": "Software Testing/Lecture 01 (Introduction).md"
               }
             }
           }
@@ -195,11 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7c0a4b5e506eaaeb",
+  "active": "5ffd3764cf1b50b7",
   "lastOpenFiles": [
+    "Blockchain/Brownbag talk by Warner - Slides Notes.md",
     "Software Testing/Lecture 03 (Control Flow Testing).md",
+    "Everything Else/Questions.md",
+    "Everything Else/Enhancing Human Collaborations and Interactions with Data and Intelligence-Driven Systems, CDT Integrated MSc and PhD.md",
     "Software Testing/Lecture 02 (White Box Testing Basics).md",
-    "Software Testing/Lecture 01 (Introduction).md",
-    "Blockchain/Brownbag talk by Warner - Slides Notes.md"
+    "Software Testing/Lecture 01 (Introduction).md"
   ]
 }
