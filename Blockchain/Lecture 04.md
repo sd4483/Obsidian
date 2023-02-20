@@ -22,3 +22,5 @@ It all started with one node, running on the creators computer. Other nodes conn
 
 In bitcoin, we use UTXO (Unspent transaction) mode to verify the transactions
 
+90% of the nodes run bitcoin core
+
