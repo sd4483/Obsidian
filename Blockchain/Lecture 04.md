@@ -8,3 +8,7 @@ take a new element -> hash it -> run it as a program (something like that)
 
 locking <-> unlocking (not clear)
 
+Changing data in one block (left most) would change the hash for all the blocks next to it. That's kinda how it's tamper resistant.
+
+In Merkel tree, to check whether two blocks contain the same tranactions, we can just check the root. The hash of the root is the certificate of all transactions.
+
