@@ -1,5 +1,8 @@
 {
   "accentColor": "",
   "theme": "moonstone",
-  "cssTheme": "Sanctum"
+  "cssTheme": "Sanctum",
+  "baseFontSize": 16,
+  "nativeMenus": false,
+  "translucency": false
 }
