@@ -32,3 +32,6 @@
 Added something on surface go 3
 
 Added something on thinkpad
+
+Added something on macbook
+
