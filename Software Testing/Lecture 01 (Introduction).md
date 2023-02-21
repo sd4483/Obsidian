@@ -10,6 +10,7 @@
 	- This is where we check whether the implementation meets the specification.
 5. **Validation**
 	- After verifying the specification, if the client requirements are satisfied, in this step we could say we satisfied the requirements.
+	- If what we built at the end is not what the client wants, that means our specification was wrong and we might even have to rebuild the entire software.
 ---
 #### **A simple example:**
 
@@ -122,6 +123,7 @@ public class SquareRoot {
 	> [!note]
 	> So it's important to have this validation step to ask ourselves ==Are we developing the right thing?==
 - The problem in the example we chose is, the requirements are a bit ambiguous. It's not clear what to do when there is a negative input and not clear what to do with irrational inputs (2,6,12, etc.) So we came up with a specification ourselves that could address these issues but at the end, client had different opinions regarding that.
+
 	>[!tip] My understanding
 	>It's important to get as clear requirements from the client as possible so that the specification is close to what the systems needs to actually do or to be precise, to build the product the client actually wants.
 
