@@ -12,80 +12,16 @@
 
 #### **A simple example:**
 
-##### **==1. Requirment:==** 
+##### **==1. Requirment==** 
 Compute the square root of a non-negative number.
 
-##### **==2. Specification:==** 'Given a double x>=0 compute a double y>=0 such that y^2 = x.'
+##### **==2. Specification==** 
+Given a double x>=0 compute a double y>=0 such that y^2 = x.
+
 	- That's the definition of a square root.
 	- We use double (64 bit floating point number) cos sometimes square root of a number is not an integer.
 
 ##### **==3. Implementation==**
-	package square_root;
-
-	public class SquareRoot {
-	
-	public static double squareRoot(double x) {
-	
-	double guess = x;
-	
-	double previousGuess;
-	
-	do {
-	
-	previousGuess = guess;
-	
-	guess = 0.5 * (guess + x/guess);
-	
-	} while (previousGuess != guess);
-	
-	return guess;
-	
-	}
-	
-	public static boolean testSquareRoot(double x) {
-	
-	double squareRootx = squareRoot(x);
-	
-	return squareRootx >= 0 && squareRootx * squareRootx == x;
-	
-	}
-	
-	}
-1. Verification
-
-```Java
-package square_root;
-
-public class SquareRoot {
-
-public static double squareRoot(double x) {
-
-double guess = x;
-
-double previousGuess;
-
-do {
-
-previousGuess = guess;
-
-guess = 0.5 * (guess + x/guess);
-
-} while (previousGuess != guess);
-
-return guess;
-
-}
-
-public static boolean testSquareRoot(double x) {
-
-double squareRootx = squareRoot(x);
-
-return squareRootx >= 0 && squareRootx * squareRootx == x;
-
-}
-
-}
-```
 
 ```Java
 package square_root;
@@ -109,3 +45,6 @@ public class SquareRoot {
 	}
 }
 ```
+
+##### **==4. Verification==**
+
