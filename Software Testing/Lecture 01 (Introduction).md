@@ -124,8 +124,9 @@ public class SquareRoot {
 - (==My understanding==) **It's important to get as clear requirements from the client as possible so that the specification is close to what the systems needs to actually do.**
 
 #### Verification vs Validation
-- Formal definitions:
-	- Verification: 'Are we building the r'
+- **Formal definitions:**
+	- ==Verification:== 'Are we building the right thing?' (i.e., does the system meet its specification)
+	- Validatoin
 - Validation is usually done at the end of the developement of a certain module or it could be after the entire software has been built.
 - Verification occurs at every stage of development.
 - 
