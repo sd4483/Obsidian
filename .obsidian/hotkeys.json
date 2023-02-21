@@ -2,8 +2,8 @@
   "editor:toggle-code": [
     {
       "modifiers": [
-        "Ctrl",
-        "Mod"
+        "Mod",
+        "Shift"
       ],
       "key": "C"
     }
