@@ -119,7 +119,7 @@ public class SquareRoot {
 - So the requirement given to us which is 'Compute the square root of a non-negative number', we come up with a specification for that and we verified the specification. `So we can say that we satisfied the requirement provided by the client.`
 
 - But the <u>client might not agree with the specification we came up with</u> and might have some opinions regarding for example, instead of the difference of square of y and x being less than 10 to the power -8, they might want it to be something like `the difference between y and square root of x to be less than 10 to the power -n` (some number they provide). And also they might want the x to be in a different range rather than limited to 50 milliion and 0. 
-So it's important to have this validation step to ask ourselves ==Are we developing the right thing?==
+	> So it's important to have this validation step to ask ourselves ==Are we developing the right thing?==
 - The problem in the example we chose is, the requirements are a bit ambiguous. It's not clear what to do when there is a negative input and not clear what to do with irrational inputs (2,6,12, etc.) So we came up with a specification ourselves that could address these issues but at the end, client had different opinions regarding that.
 - (==My understanding==) **It's important to get as clear requirements from the client as possible so that the specification is close to what the systems needs to actually do.**
 
