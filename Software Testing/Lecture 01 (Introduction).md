@@ -19,6 +19,7 @@ Compute the square root of a non-negative number.
 Given a double x>=0 compute a double y>=0 such that y^2 = x.
 
 - That's the definition of a square root.
+
 - We use double (64 bit floating point number) cos sometimes square root of a number is not an integer.
 
 ##### **==3. Implementation==**
@@ -47,6 +48,8 @@ public class SquareRoot {
 ```
 - The above implementation kind of implements the specification given. The square root can be calculated for certain inputs like 4, 9, 16, etc. 
 
-- But it fails for certain inputs like 0 for example. But that's okay to a certain extent cos the specification doesn't state what needs to be done for inputs like that. So it's more for a specification issue rather than a verification of specification issue.
+- But it fails for certain inputs like 0 for example and negative numbers. But that's okay to a certain extent cos the specification doesn't state what needs to be done for inputs like that. So it's more for a specification issue rather than a verification of specification issue.
+
+- 
 ##### **==4. Verification==**
 
