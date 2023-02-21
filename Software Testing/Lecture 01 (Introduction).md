@@ -77,5 +77,6 @@ public class SquareRoot {
 
 - So the <u>specification we got is wrong</u>, we can't always compute the exact square root of a number but we can compute something close to that.
 
-- 
+- Based on the above, the specification could be changed as follows:
+	- If x < 0
 ##### **==4. Verification==**
