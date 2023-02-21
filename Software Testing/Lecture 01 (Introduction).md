@@ -9,7 +9,7 @@
 4. **Verification**
 	- This is where we check whether the implementation meets the specification.
 5. **Validation**
-	- After verifying the specification, if the client requirements are satisfied, in this step we could say 
+	- After verifying the specification, if the client requirements are satisfied, in this step we could say we satisfied the requirements.
 
 #### **A simple example:**
 
@@ -106,9 +106,7 @@ public class SquareRoot {
 	}
 	```
 
-- So the requirement given to us which is 'Compute the square root of a non-negative number', we come up with a specification for that and we verified the specification. So we can say that we satisfied the requirement provided by the client.
-- 
-##### **==4. Verification==**
+##### ==4. Verification==
 - The `testSquareRoot` function could be changed like this:
 	```Java
 	public static boolean testSquareRoot(double x) {
@@ -117,4 +115,5 @@ public class SquareRoot {
 	}
 	```
 
-##### 5. Validation
+##### ==5. Validation==
+- So the requirement given to us which is 'Compute the square root of a non-negative number', we come up with a specification for that and we verified the specification. So we can say that we satisfied the requirement provided by the client.
