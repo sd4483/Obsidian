@@ -87,5 +87,5 @@ public class SquareRoot {
 			return squareRootx >= 0 && Math.abs(squareRootx * squareRootx - x) < Math.pow(10.0, -8);
 	}
 	```
-
+- The `squareRoot` method could b
 ##### **==4. Verification==**
