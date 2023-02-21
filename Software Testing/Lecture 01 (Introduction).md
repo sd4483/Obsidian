@@ -112,5 +112,6 @@ public class SquareRoot {
 	}
 	```
 
-- So the requirement given to us which is 'Compute the square root of a non-negative nu'
+- So the requirement given to us which is 'Compute the square root of a non-negative number', we come up with a specification for that and we verified the specification. So we can say that we satisfied the requirement provided by the client.
+- 
 ##### **==4. Verification==**
