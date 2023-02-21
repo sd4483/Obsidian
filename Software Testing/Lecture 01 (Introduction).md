@@ -123,7 +123,7 @@ public class SquareRoot {
 	> So it's important to have this validation step to ask ourselves ==Are we developing the right thing?==
 - The problem in the example we chose is, the requirements are a bit ambiguous. It's not clear what to do when there is a negative input and not clear what to do with irrational inputs (2,6,12, etc.) So we came up with a specification ourselves that could address these issues but at the end, client had different opinions regarding that.
 - (==My understanding==) **It's important to get as clear requirements from the client as possible so that the specification is close to what the systems needs to actually do.**
-
+---
 #### Verification vs Validation
 - **Formal definitions:**
 	- ==Verification:== 'Are we building the right thing?' (i.e., does the system meet its specification)
