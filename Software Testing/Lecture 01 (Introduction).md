@@ -50,6 +50,28 @@ public class SquareRoot {
 
 - But it fails for certain inputs like 0 for example and negative numbers. But that's okay to a certain extent cos the specification doesn't state what needs to be done for inputs like that. So it's more for a specification issue rather than a verification of specification issue.
 
+- One way to solve the 0 input issue is to change the implementation like this:
+	``` Java
+		public static double squareRoot(double x) {
+		
+		if (x ==0) {
+			return 0;
+		}
+		else {
+			double guess = x;
+			double previousGuess;
+			
+			do {
+				previousGuess = guess;
+				guess = 0.5 * (guess + x/guess);
+			} while (previousGuess != guess);
+			
+			return guess;
+		}
+	}
+	```
+
+- But this still doesn't solve the issues with inputs like 2, 6, 12, etc.
+
 - 
 ##### **==4. Verification==**
-
