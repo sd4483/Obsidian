@@ -126,7 +126,6 @@ public class SquareRoot {
 #### Verification vs Validation
 - **Formal definitions:**
 	- ==Verification:== 'Are we building the right thing?' (i.e., does the system meet its specification)
-	- Validatoin
+	- ==Validation:== 'Are we building the right product?' (i.e., does the system meet the user's requirements?)
 - Validation is usually done at the end of the developement of a certain module or it could be after the entire software has been built.
 - Verification occurs at every stage of development.
-- 
