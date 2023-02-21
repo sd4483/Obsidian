@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Testing/Lecture 02 (White Box Testing Basics).md",
+                "file": "Software Testing/Lecture 03 (Control Flow Testing).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Testing/Lecture 02 (White Box Testing Basics).md",
+                "file": "Software Testing/Lecture 03 (Control Flow Testing).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Testing/Lecture 02 (White Box Testing Basics).md",
+                "file": "Software Testing/Lecture 03 (Control Flow Testing).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Testing/Lecture 02 (White Box Testing Basics).md"
+                "file": "Software Testing/Lecture 03 (Control Flow Testing).md"
               }
             }
           }
@@ -148,11 +148,11 @@
   },
   "active": "e60557360ab6f48a",
   "lastOpenFiles": [
+    "Software Testing/Lecture 02 (White Box Testing Basics).md",
     "Software Testing/Lecture 03 (Control Flow Testing).md",
     "Software Testing/Lecture 04.md",
     "Software Testing/Lecture 01 (Introduction).md",
     "Blockchain/Lecture 04.md",
-    "Software Testing/Lecture 02 (White Box Testing Basics).md",
     "Blockchain/Brownbag talk by Warner - Slides Notes.md",
     "conflict-files-obsidian-git.md",
     "Optimisation Module/Course Work.md",
