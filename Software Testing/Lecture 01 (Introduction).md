@@ -80,12 +80,35 @@ public class SquareRoot {
 - Based on the above, the specification could be changed as follows:
 	- If x < 0, throw an exception for negative input.
 	- Given a double 'x' less than 50 million ==(50,000,000 >= x >= 0)==, compute a double ==($y \geq 0$)== such that the difference of square of y and x is less than $10^{-8}$ ie. ==($| y^2 - x | < 10^{-8}$ )==
-- The test function could be changed like this
+<br>
+- The `testSquareRoot` function could be changed like this:
 	```Java
 	public static boolean testSquareRoot(double x) {
 		double squareRootx = squareRoot(x);
 			return squareRootx >= 0 && Math.abs(squareRootx * squareRootx - x) < Math.pow(10.0, -8);
 	}
 	```
-- The `squareRoot` method could b
+- The `squareRoot` method could be changed like this:
+	```Java
+	public static double squareRoot(double x) {
+		
+		if(x < 0) {
+			throw new IllegalArgumentException("Cannot compute square root of negative number" + x);
+		}
+		else if(x == 0) {
+			return 0;
+		}
+		else {
+			double guess = x;
+			double previousGuess;
+			
+			do {
+				previousGuess = guess;
+				guess = 0.5 * (guess + x/guess);
+			} while (previousGuess != guess);
+			
+			return guess;
+		}
+	}
+	```
 ##### **==4. Verification==**
