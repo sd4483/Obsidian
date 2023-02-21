@@ -73,5 +73,9 @@ public class SquareRoot {
 
 - But this still doesn't solve the issues with inputs like 2, 6, 12, etc.
 
+- So the insight we got here is that, it's not always possible to compute the square root of a number. Specifically if the number is an irrational number like 2. 
+
+- So the <u>specification we got is wrong</u>, we can't always compute the exact square root of a number but we can compute something close to that.
+
 - 
 ##### **==4. Verification==**
