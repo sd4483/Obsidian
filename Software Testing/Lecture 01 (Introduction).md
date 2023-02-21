@@ -123,7 +123,9 @@ public class SquareRoot {
 - The problem in the example we chose is, the requirements are a bit ambiguous. It's not clear what to do when there is a negative input and not clear what to do with irrational inputs (2,6,12, etc.) So we came up with a specification ourselves that could address these issues but at the end, client had different opinions regarding that.
 - (==My understanding==) **It's important to get as clear requirements from the client as possible so that the specification is close to what the systems needs to actually do.**
 
-#### 
+#### Verification vs Validation
+- Formal definitions:
+	- Verification: 'Are we building the r'
 - Validation is usually done at the end of the developement of a certain module or it could be after the entire software has been built.
 - Verification occurs at every stage of development.
 - 
