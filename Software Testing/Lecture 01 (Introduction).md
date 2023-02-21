@@ -8,7 +8,8 @@
 	- This is where we actually implement the specification i.e. coding of the software or building the actual product
 4. **Verification**
 	- This is where we check whether the implementation meets the specification.
-5. Validation
+5. **Validation**
+	- After verifying the specification, if the client requirements are satisfied, in this step we could say 
 
 #### **A simple example:**
 
