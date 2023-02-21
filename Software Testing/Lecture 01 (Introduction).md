@@ -36,46 +36,41 @@ public class SquareRoot {
 			previousGuess = guess;
 			guess = 0.5 * (guess + x/guess);
 		} while (previousGuess != guess);
-	
+		
 		return guess;
 	}
+	
 	public static boolean testSquareRoot(double x) {
 		double squareRootx = squareRoot(x);
 		return squareRootx >= 0 && squareRootx * squareRootx == x;
 	}
 }
-	```
-
+```
 - The above implementation kind of implements the specification given. The square root can be calculated for certain inputs like 4, 9, 16, etc. 
 
 - But it fails for certain inputs like 0 for example and negative numbers. But that's okay to a certain extent cos the specification doesn't state what needs to be done for inputs like that. So it's more for a specification issue rather than a verification of specification issue.
 
 - One way to solve the 0 input issue is to change the implementation like this:
-
 	``` Java
-	public class SquareRoot {
 		public static double squareRoot(double x) {
 		
-			if (x ==0) {
-				return 0;
-			}
-			else {
-				double guess = x;
-				double previousGuess;
-				
-				do {
-					previousGuess = guess;
-					guess = 0.5 * (guess + x/guess);
-				} while (previousGuess != guess);
-				
-				return guess;
+		if (x ==0) {
+			return 0;
 		}
-		public static boolean testSquareRoot(double x) {
-			double squareRootx = squareRoot(x);
-			return squareRootx >= 0 && squareRootx * squareRootx == x;
+		else {
+			double guess = x;
+			double previousGuess;
+			
+			do {
+				previousGuess = guess;
+				guess = 0.5 * (guess + x/guess);
+			} while (previousGuess != guess);
+			
+			return guess;
 		}
 	}
 	```
+
 - But this still doesn't solve the issues with inputs like 2, 6, 12, etc.
 
 - So the insight we got here is that, it's not always possible to compute the square root of a number. Specifically if the number is an irrational number like 2. 
@@ -84,6 +79,6 @@ public class SquareRoot {
 
 - Based on the above, the specification could be changed as follows:
 	- If x < 0, throw an exception for negative input.
-	- Given a double x less than 50 million ==(50,000,000 >= x >= 0)==, compute a double ==($y \geq 0$)== such that the difference of square of y and x is less than $10^{-8}$ ==($| y^2 - x | < 10^{-8}$ )
+	- Given a double x less than 50 million ==(50,000,000 >= x >= 0)==, compute a double ==($y \geq 0$)== such that the difference of square of y and x is less than $10^{-8}$ ==($| y^2 - x | < 10^{-8}$ )==
 
 ##### **==4. Verification==**
