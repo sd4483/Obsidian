@@ -10,7 +10,7 @@
 	- This is where we check whether the implementation meets the specification.
 5. **Validation**
 	- After verifying the specification, if the client requirements are satisfied, in this step we could say we satisfied the requirements.
-
+---
 #### **A simple example:**
 
 ##### ==1. Requirment==
