@@ -34,3 +34,5 @@ What sort of inputs are acceptable is dependent on what we want the program to d
 
 We generally don't consider brackets in the graphs unless there is no return for that program and it's void, then the last bracket will be considered as a node.
 
+Feasible path: Part of a program that's feasible
+
