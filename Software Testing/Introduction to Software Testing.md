@@ -17,12 +17,15 @@
 - **Formal definitions:**
 	- ==Verification:== 'Are we building the right thing?' (i.e., does the system meet its specification)
 	- ==Validation:== 'Are we building the right product?' (i.e., does the system meet the user's requirements?)
-- Validation is usually done at the end of the developement of a certain module or it could be after the entire software has been built.
+- Validation is usually done at the end of the developement of a certain part of the prototype or it could be after the entire software has been built.
 - Verification occurs at every stage of development.
 
 ##### Software Development Processes
 - If the product built is not what the client actually wants, that means the specification was wrong and the entire software might even have to rebuilt.
 - In order to address the issue of products not meeting requirements or specifications  being wrong, people have come up with a number of software development process.
+- There are ==two central themes== in the software development processes:
+	- **Avoid the introduction of faults in advance** (eg. through proper design and documentation)
+	- Quickly produce working prototypes of parts of the product for verification and validation
 ---
 #### **A simple example:**
 
