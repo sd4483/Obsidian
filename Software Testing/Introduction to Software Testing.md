@@ -15,8 +15,8 @@
 
 ##### Verification vs Validation
 - **Formal definitions:**
-	- ==Verification:== 'Are we building the right thing?' (i.e., does the system meet its specification)
-	- ==Validation:== 'Are we building the right product?' (i.e., does the system meet the user's requirements?)
+	- ==**Verification**== 'Are we building the right thing?' (i.e., does the system meet its specification)
+	- ==**Validation**== 'Are we building the right product?' (i.e., does the system meet the user's requirements?)
 - Validation is usually done at the end of the developement of a certain part of the prototype or it could be after the entire software has been built.
 - Verification occurs at every stage of development.
 
@@ -27,22 +27,23 @@
 	- **Avoid the introduction of faults in advance** (eg. through proper design and documentation)
 	- **Quickly produce working prototypes** of parts of the product for verification and validation
 	- These two themes are somewhat conflicting cos to quickly build a product, sometimes people rush into it without a clear understanding of the requirements. On the other hand, to have a clear requirement with proper design and documentation could delay the whole process.
-- Often times it'll be one or other themes that the project is mostly based on. But what theme is chosen depends largely on the stakeholder requirements as well. If the requirements are clear from the clients, then there might not be many critical errors to deal with, but if they are not, then quickly working on some proptotypes and getting feedback from the client - asking them whether that is what they want, would be the way to go. 
+- Often times it'll be one or other themes that the project is mostly based on. But ==**what theme is chosen depends on the stakeholder requirements and our expectation of where the critical faults might arise**==. 
+- If the requirements are clear from the clients, then there might not be many critical errors to deal with, but if they are not, then quickly working on some proptotypes and getting feedback from the client - asking them whether that is what they want, would be the way to go. 
 - It's important to understand the risks involvded ("risk profile") in the project to select the appropriate path to take the project in. 
 ---
 #### **A simple example:**
 
-##### ==1. Requirment==
+##### 1. Requirment
 Compute the square root of a non-negative number.
 
-##### ==2. Specification==
+##### 2. Specification
 Given a double x>=0 compute a double y>=0 such that y^2 = x.
 
 - That's the definition of a square root.
 
 - We use double (64 bit floating point number) cos sometimes square root of a number is not an integer.
 
-##### ==3. Implementation==
+##### 3. Implementation
 
 ```Java
 package square_root;
@@ -125,7 +126,7 @@ public class SquareRoot {
 	}
 	```
 
-##### ==4. Verification==
+##### 4. Verification
 - The `testSquareRoot` function could be changed like this:
 	```Java
 	public static boolean testSquareRoot(double x) {
@@ -134,7 +135,7 @@ public class SquareRoot {
 	}
 	```
 
-##### ==5. Validation==
+##### 5. Validation
 - So the requirement given to us which is 'Compute the square root of a non-negative number', we come up with a specification for that and we verified the specification. `So we can say that we satisfied the requirement provided by the client.`
 
 - But the <u>client might not agree with the specification we came up with</u> and might have some opinions regarding for example, instead of the difference of square of y and x being less than 10 to the power -8, they might want it to be something like `the difference between y and square root of x to be less than 10 to the power -n` (some number they provide). And also they might want the x to be in a different range rather than limited to 50 milliion and 0. 
