@@ -46,6 +46,8 @@
 	- A good testing strategy is designed to find as many faults as possible.
 	- A good testing strategy would be - I tried my hardest to break the program and I couldn't break it.
 
+Error --> Fault --> Failure --> Incident
+
 #### Testing vs Formal Verification
 - ==**Formal verification is another way to verify the software using mathematical analysis of the code.**== 
 	- A formal specification is used to check whether the program adheres to it.
