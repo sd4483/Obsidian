@@ -1,9 +1,9 @@
 {
   "accentColor": "",
-  "theme": "obsidian",
-  "cssTheme": "Sanctum",
+  "theme": "moonstone",
+  "cssTheme": "Atom",
   "baseFontSize": 16,
   "nativeMenus": false,
   "translucency": false,
-  "textFontFamily": "Trebuchet MS"
+  "textFontFamily": "Inter"
 }
