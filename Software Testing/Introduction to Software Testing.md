@@ -29,7 +29,8 @@
 	- These two themes are somewhat conflicting cos to quickly build a product, sometimes people rush into it without a clear understanding of the requirements. On the other hand, to have a clear requirement with proper design and documentation could delay the whole process.
 - Often times it'll be one or other themes that the project is mostly based on. But ==**what theme is chosen depends on the stakeholder requirements and our expectation of where the critical faults might arise**==. 
 - If the requirements are clear from the clients, then there might not be many critical errors to deal with, but if they are not, then quickly working on some proptotypes and getting feedback from the client - asking them whether that is what they want, would be the way to go. 
-- It's important to understand the risks involvded ("risk profile") in the project to select the appropriate path to take the project in. 
+- It's important to understand the risks involvded ("risk profile") in the project to select the appropriate path to take the project in. Or else risk analysis itself plays a prominent role.
+- ==**Verification and validation are key steps**== - these are the steps where faults are identified typically.
 ---
 #### **A simple example:**
 
