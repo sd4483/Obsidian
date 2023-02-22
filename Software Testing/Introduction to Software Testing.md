@@ -47,7 +47,11 @@
 	- A good testing strategy would be - I tried my hardest to break the program and I couldn't break it.
 
 #### Testing vs Formal Verification
-- Formal verification is another way to verify the software using mathe
+- ==**Formal verification is another way to verify the software using mathematical analysis of the code.**== 
+	- A formal specification is used to check whether the program adheres to it.
+		- Done using either by automated methods or manually with the help of a proof assistant.
+	- Verfification is only as good as the formal specification.
+- Formal verification can offer stronger guarantees but is costlier and requires greater expertise.
 - Testing is considered as a poor mans way to verifying the software.
 ---
 #### **A simple example:**
