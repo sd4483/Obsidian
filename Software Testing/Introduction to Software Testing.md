@@ -56,6 +56,9 @@
 		- It's possible that in this process new errors might happen which would then need to be resolved.
 - **Test case**: description of a single experiment
 - **Test suite**: collection of test cases
+- While designing a test suite, keep in mind the Coverage vs Complexity trade-off.
+	- Coverage: Extent to which a test suite covers the qualitativelty different behaviours of the system under test.
+	- Complexity: Measure of the costs
 
 #### Testing vs Formal Verification
 - ==**Formal verification is another way to verify the software using mathematical analysis of the code.**== 
