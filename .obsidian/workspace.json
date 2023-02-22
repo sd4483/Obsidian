@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Testing/Introduction to Software Testing.md",
+                "file": "Software Testing/Lecture 04.md",
                 "mode": "preview",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5,
-    "collapsed": true
+    "width": 201.5
   },
   "right": {
     "id": "391e7a62d370867d",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Testing/Introduction to Software Testing.md",
+                "file": "Software Testing/Lecture 04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Testing/Introduction to Software Testing.md",
+                "file": "Software Testing/Lecture 04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Testing/Introduction to Software Testing.md"
+                "file": "Software Testing/Lecture 04.md"
               }
             }
           }
@@ -149,15 +148,15 @@
   },
   "active": "e60557360ab6f48a",
   "lastOpenFiles": [
+    "Software Testing/Lecture 03 (Control Flow Testing).md",
+    "Software Testing/Lecture 04.md",
+    "Software Testing/Introduction to Software Testing.md",
     "Software Testing/Lecture 02 (White Box Testing Basics).md",
     "Software Testing/Lecture 01 (Introduction).md",
     "conflict-files-obsidian-git.md",
-    "Software Testing/Lecture 04.md",
-    "Software Testing/Lecture 03 (Control Flow Testing).md",
     "Blockchain/Lecture 04.md",
     "Blockchain/Brownbag talk by Warner - Slides Notes.md",
     "Optimisation Module/Course Work.md",
-    "Optimisation Module/Paper Review.md",
-    "Untitled 1.canvas"
+    "Optimisation Module/Paper Review.md"
   ]
 }
