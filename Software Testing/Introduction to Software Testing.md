@@ -31,7 +31,14 @@
 - If the requirements are clear from the clients, then there might not be many critical errors to deal with, but if they are not, then quickly working on some proptotypes and getting feedback from the client - asking them whether that is what they want, would be the way to go. 
 - It's important to understand the risks involvded ("risk profile") in the project to select the appropriate path to take the project in. Or else risk analysis itself plays a prominent role.
 - ==**Verification and validation are key steps**== - these are the steps where faults are identified typically and in early stages. If faults go undetected for a long time, they become more and more expensive to fix.
-- Here is where SOFTWARE TESTING comes in. It involves verification and vaildation of the system to assess whether it meets our requirements and precisely whether it works the way its intended.
+- Here is where ==**SOFTWARE TESTING**== comes in. It involves verification and vaildation of the system to assess whether it meets our requirements and precisely whether it works the way its intended.
+
+#### Software Testing
+- Software testing involves verification and vaildation of the system to assess whether it meets our requirements and precisely whether it works the way its intended. [repeated from above]
+>"**Testing can be used to show the presence of bugs, but never to show their absence.**"
+>\- Dijkstra, 1970
+
+- What the above quote means is, ==**testing shouldn't be used as a way to show that the system works the way it's supposed to without any errors**==. It should only be used to check for the presence of bugs. 
 ---
 #### **A simple example:**
 
