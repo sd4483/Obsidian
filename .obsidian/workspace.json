@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e60557360ab6f48a",
+            "id": "03cbc0d7d55fe43d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Software Testing/Introduction to Software Testing.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -147,17 +147,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e60557360ab6f48a",
+  "active": "03cbc0d7d55fe43d",
   "lastOpenFiles": [
-    "Software Testing/Lecture 04.md",
-    "Software Testing/Lecture 03 (Control Flow Testing).md",
     "Software Testing/Lecture 02 (White Box Testing Basics).md",
+    "Software Testing/Lecture 03 (Control Flow Testing).md",
     "Software Testing/Introduction to Software Testing.md",
-    "Software Testing/Lecture 01 (Introduction).md",
-    "conflict-files-obsidian-git.md",
-    "Blockchain/Lecture 04.md",
     "Blockchain/Brownbag talk by Warner - Slides Notes.md",
+    "conflict-files-obsidian-git.md",
     "Optimisation Module/Course Work.md",
-    "Optimisation Module/Paper Review.md"
+    "Optimisation Module/Paper Review.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "fsdfs.md"
   ]
 }
