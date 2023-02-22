@@ -82,6 +82,8 @@
 	- ==**Unit**== - A piece of software that delivers a single functionality (a single class/function/module).
 - Unit testing should be done in isolation of the unit to verify it's functionality but typically `units` are dependent on other units.
 	- 'Test stubs' are used to mock the behaviour of the dependent units when doing unit testing.
+- '==**bottom up**==' approach - Test units that are not dependent on other units first and assume they are correct. Then move on to testing units that are dependent on other units.
+- Motivation behind unit testing is, 'fault isolation' + 'complexity reduction' (we reduce the complexity by testing smallest )
 ---
 #### **A simple example:**
 
