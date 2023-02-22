@@ -65,7 +65,7 @@
 		- Which costs are most relavent is highly context dependent.
 	- Typically, it's a good idea to have high coverage and low complexity. Fix the coverage and minimise the complexity.
 
-#### Testing vs Formal Verification
+##### Testing vs Formal Verification
 - ==**Formal verification is another way to verify the software using mathematical analysis of the code.**== 
 	- A formal specification is used to check whether the program adheres to it.
 		- Done using either by automated methods or manually with the help of a proof assistant.
@@ -77,7 +77,11 @@
 >"**Beware of bugs in the above code; i have only proved it correct, not tried it.**"
 >\- Donald Knuth
 
-
+##### Unit Testing
+- Testing a `unit` in isolation
+	- ==**Unit**== - A piece of software that delivers a single functionality (a single class/function/module).
+- Unit testing should be done in isolation of the unit to verify it's functionality but typically `units` are dependent on other units.
+	- 'Test stubs' are used to mock the behaviour of the dependent units when doing unit testing.
 ---
 #### **A simple example:**
 
