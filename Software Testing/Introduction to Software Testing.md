@@ -27,7 +27,8 @@
 	- **Avoid the introduction of faults in advance** (eg. through proper design and documentation)
 	- **Quickly produce working prototypes** of parts of the product for verification and validation
 	- These two themes are somewhat conflicting cos to quickly build a product, sometimes people rush into it without a clear understanding of the requirements. On the other hand, to have a clear requirement with proper design and documentation could delay the whole process.
-- Often times it'll be one or other themes that the project is mostly based on. But what theme is chosen depen
+- Often times it'll be one or other themes that the project is mostly based on. But what theme is chosen depends largely on the stakeholder requirements as well. If the requirements are clear from the clients, then there might not be many critical errors to deal with, but if they are not, then quickly working on some proptotypes and getting feedback from the client - asking them whether that is what they want, would be the way to go. 
+- It's important to understand the risks involvded ("risk profile") in the project to select the appropriate path to take the project in. 
 ---
 #### **A simple example:**
 
