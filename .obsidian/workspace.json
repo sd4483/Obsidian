@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Software Testing/Introduction to Software Testing.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -149,15 +149,15 @@
   },
   "active": "e60557360ab6f48a",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Software Testing/Introduction to Software Testing.md",
-    "Software Testing/Lecture 04.md",
-    "Software Testing/Lecture 03 (Control Flow Testing).md",
-    "Software Testing/Lecture 02 (White Box Testing Basics).md",
-    "Blockchain/Lecture 04.md",
     "Blockchain/Brownbag talk by Warner - Slides Notes.md",
+    "Exam Prep/Embedded Systems.md",
+    "Exam Prep/Operating Systems.md",
+    "Optimisation Module/Strengths.md",
     "Optimisation Module/Course Work.md",
     "Optimisation Module/Paper Review.md",
-    "Untitled 1.canvas"
+    "Software Testing/Introduction to Software Testing.md",
+    "conflict-files-obsidian-git.md",
+    "Software Testing/Lecture 04.md",
+    "Software Testing/Lecture 03 (Control Flow Testing).md"
   ]
 }
