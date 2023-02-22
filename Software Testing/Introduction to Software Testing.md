@@ -23,9 +23,11 @@
 ##### Software Development Processes
 - If the product built is not what the client actually wants, that means the specification was wrong and the entire software might even have to rebuilt.
 - In order to address the issue of products not meeting requirements or specifications  being wrong, people have come up with a number of software development process.
-- There are ==two central themes== in the software development processes:
+- There are ==**two central themes**== in the software development processes:
 	- **Avoid the introduction of faults in advance** (eg. through proper design and documentation)
-	- Quickly produce working prototypes of parts of the product for verification and validation
+	- **Quickly produce working prototypes** of parts of the product for verification and validation
+	- These two themes are somewhat conflicting cos to quickly build a product, sometimes people rush into it without a clear understanding of the requirements. On the other hand, to have a clear requirement with proper design and documentation could delay the whole process.
+- Often times it'll be one or other themes that the project is mostly based on. But what theme is chosen depen
 ---
 #### **A simple example:**
 
