@@ -53,7 +53,9 @@
 	- Verfification is only as good as the formal specification.
 - Formal verification can offer stronger guarantees but is costlier and requires greater expertise.
 - Testing is considered as a poor mans way to verifying the software.
-- There are things you can do with formal verification that can't be done with testing, but it's not that one is better than the other, these methods often complement each other. And it's important to remember that no formal verification can truly capture all aspects of the system. Things like for example user experience which could play a huge role in the success of the product can't be tested using formal verification.
+- There are things you can do with formal verification that can't be done with testing, but it's not that one is better than the other, these methods often complement each other.
+- It's important to remember that no formal verification can truly capture all aspects of the system. Things like for example user experience which could play a huge role in the success of the product can't be tested using formal verification.
+>Bewar
 ---
 #### **A simple example:**
 
