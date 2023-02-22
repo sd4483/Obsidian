@@ -40,9 +40,11 @@
 
 - What the above quote means is, ==**testing shouldn't be used as a way to show or convince ourselves that the system works the way it's supposed to without any errors**==. It should be used to check for the presence of bugs (or faults in the software).
 >[!tip] Philosophy 
->It shouldn't be used as evidence to support your theory that the program works correctly. It should be the other way around, testing to challenge your assumptions and theory.
->Your attitude shouldn't be - let's try to test it to see if it works. It should be - let's try to break it and if cannot break it, there's some evidence that it works. 
-- 
+>- It shouldn't be used as evidence to support your theory that the program works correctly. It should be the other way around, testing to challenge your assumptions and find some evidence to test whether the system works appropriately.
+>- Your attitude shouldn't be - let's try to test it to see if it works. It should be - let's try to break it and if cannot break it, there's some evidence that it works. 
+- **Testing strategy**
+	- A good testing strategy is designed to find as many faults as possible.
+	- A good testing strategy would be - I tried my hardest to break the program and I couldn't break it.
 ---
 #### **A simple example:**
 
