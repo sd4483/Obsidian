@@ -46,7 +46,15 @@
 	- A good testing strategy is designed to find as many faults as possible.
 	- A good testing strategy would be - I tried my hardest to break the program and I couldn't break it.
 
+#### Testing Lifecycle
 Error --> Fault --> Failure --> Incident
+**Software development process:**
+	Requirements specification -> Design -> Coding -> Testing
+	In each of these steps errors could happen which would lead to some faults.
+**Testing process:**
+	Testing -> Fault classification -> Fault isolation -> Fault resolution
+	- In testing, we want to resolve the faults, first by understand what kind of fault it is, where it occured and then provide some resolution to that fault.
+	- It's possible that in this process new errors might happen which would then need to be resolved.
 
 #### Testing vs Formal Verification
 - ==**Formal verification is another way to verify the software using mathematical analysis of the code.**== 
