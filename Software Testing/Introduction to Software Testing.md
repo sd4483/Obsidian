@@ -62,6 +62,8 @@
 		- Coverage could also depend on our own definition of what we want to cover in the test suite (**==coverage criteria==**).
 		- The idea is to have a high coverage -> high ability to detect faults in the system
 	- **Complexity**: Measure of the costs of constructing, executing, and maintaining a test  suite.
+		- Which costs are most relavent is highly context dependent.
+	- Typically, it's a good idea to have high coverage and low complexity. Fix the coverage and minimise the complexity.
 
 #### Testing vs Formal Verification
 - ==**Formal verification is another way to verify the software using mathematical analysis of the code.**== 
