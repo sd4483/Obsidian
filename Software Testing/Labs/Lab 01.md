@@ -29,11 +29,14 @@ flowchart LR
 
 ##### Task 03
 
-Execution paths of the program:
+Possible execution paths of the program:
 $\langle 1,3,4,17 \rangle$
-$\langle 1,3,4,6,8,9,4,17 \rangle$
 $\langle 1,3,4,6,11,13,14,4,17 \rangle$
 
+Infeasible paths of the program:
+$\langle 6,8,9 \rangle$
+$\langle 6,8,9,11 \rangle$
+$\langle 8 \rangle$
 ##### Task 04
 
 ```Java
