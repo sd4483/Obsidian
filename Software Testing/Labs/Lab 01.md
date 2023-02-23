@@ -68,13 +68,6 @@ flowchart LR
 ```
 ---
 ##### Task 05
-
-Test Case | x | y | Expected Output
-:--: | :-: | : - : | :--:
-1 | -1 | -1 | -2
-2 | 0 | 0 | 0
-3 | 1 | 1 | 2
-
 <table style="text-align:center; width:100%;">  
   <tr style="background-color: #dddddd;">  
     <th style="text-align:center">Test Case</th>  
@@ -133,6 +126,34 @@ Test Case | base | exponent | modulus | Expected Output
 2 | 0 | 3 | 2 | 0
 3 | 2 | 2 | 5 | 4
 
+<table style="text-align:center; width:100%;">  
+  <tr style="background-color: #dddddd;">  
+    <th style="text-align:center">Test Case</th>  
+    <th style="text-align:center">base</th>  
+    <th style="text-align:center">exponent</th>  
+    <th style="text-align:center">modulus</th>
+    <th style="text-align:center">Expected O</th>
+  </tr>  
+  <tr>  
+    <td>1</td>  
+    <td>-1</td>  
+    <td>-1</td> 
+    <td>-2</td> 
+  </tr>  
+  <tr>  
+    <td>2</td>  
+    <td>0</td>  
+    <td>0</td> 
+    <td>0</td> 
+  </tr> 
+  <tr>  
+    <td>3</td>  
+    <td>1</td>  
+    <td>1</td> 
+    <td>2</td> 
+  </tr>   
+</table>
+
 ---
 ##### Task 04
 
@@ -144,21 +165,3 @@ A high quality test suite covers as many behaviours of the program as possible. 
 The pre-conditions given for the program are **base x is an integer, the exponent n is a non-negative integer, and the modulus m is an integer > 1**
 
 For those conditions, yes it does produce the right output.
-
-<table>  
-  <tr>  
-    <th>Company</th>  
-    <th>Contact</th>  
-    <th>Country</th>  
-  </tr>  
-  <tr>  
-    <td>Alfreds Futterkiste</td>  
-    <td>Maria Anders</td>  
-    <td>Germany</td>  
-  </tr>  
-  <tr>  
-    <td>Centro comercial Moctezuma</td>  
-    <td>Francisco Chang</td>  
-    <td>Mexico</td>  
-  </tr>  
-</table>
