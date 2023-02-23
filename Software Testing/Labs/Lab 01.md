@@ -48,14 +48,20 @@ public static int addNew(int x, int y) {
 	}
 ```
 
-Task 05
+Program graph for the refactored program:
+```mermaid
+flowchart LR
+	id1((1)) --> id2((3)) --> id3((4)) --> id4((5)) --> id6((1)) --> id6((3)) --> id3((4)) --> id4((5)) -->
+```
+
+##### Task 05
 
 Test Case | x | y | Expected Output
--- | - | - | --
+:--: | :-: | : - : | :--:
 1 | -1 | -1 | -2
 2 | 0 | 0 | 0
-3 | -1 | 0 | -1
-4 | 0 | -1 | -1
-5 | 1 | 1 | 2
-6 | 0 | 1 | 1
-7
+3 | 1 | 1 | 2
+
+
+
+
