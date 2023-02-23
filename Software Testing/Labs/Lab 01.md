@@ -27,13 +27,13 @@ flowchart LR
 	id4 --> id2
 ```
 
-Task 03
+##### Task 03
 
 If a path in the graph is not reachible by any input given to the program, that path can be considered as infeasible.
 
-Task 04
+##### Task 04
 
-```Java:n
+```Java
 public static int addNew(int x, int y) {	
 	int sum = y;   
 	do {
@@ -47,3 +47,6 @@ public static int addNew(int x, int y) {
 	return sum;     
 	}
 ```
+
+Task 05
+
