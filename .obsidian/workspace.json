@@ -129,13 +129,21 @@
                 "file": "Software Testing/Labs/Lab 01.md"
               }
             }
+          },
+          {
+            "id": "e074614aad326e4b",
+            "type": "leaf",
+            "state": {
+              "type": "sekund-main-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -145,7 +153,7 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false
+      "sekund:Sekund Panes": false
     }
   },
   "active": "f9474108830bd3d1",
