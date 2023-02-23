@@ -34,7 +34,8 @@ If a path in the graph is not reachible by any input given to the program, that 
 ##### Task 04
 
 ```Java
-public static int addNew(int x, int y) {	
+public static int addNew(int x, int y) 
+{	
 	int sum = y;   
 	do {
 	    sum = sum - 1;
@@ -45,13 +46,15 @@ public static int addNew(int x, int y) {
 	    x = x - 1;
 	} while(x > 0);
 	return sum;     
-	}
+}
 ```
 
-Program graph for the refactored program:
+**Program graph for the refactored program:**
 ```mermaid
 flowchart LR
-	id1((1)) --> id2((3)) --> id3((4)) --> id4((5)) --> id6((1)) --> id6((3)) --> id3((4)) --> id4((5)) -->
+	id1((1)) --> id2((3)) --> id3((4)) --> id4((5)) --> id6((6)) --> id7((7)) --> id8((8)) --> id9((9)) --> id10((10)) --> id11((11)) --> id12((12))
+	id7 --> id3
+	id11 --> id8
 ```
 
 ##### Task 05
