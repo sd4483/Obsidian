@@ -33,4 +33,17 @@ If a path in the graph is not reachible by any input given to the program, that 
 
 Task 04
 
-
+```Java:n
+public static int addNew(int x, int y) {	
+	int sum = y;   
+	do {
+	    sum = sum - 1;
+	    x = x + 1;
+	} while(x <= 0);       
+	do {
+	    sum = sum + 1;
+	    x = x - 1;
+	} while(x > 0);
+	return sum;     
+	}
+```
