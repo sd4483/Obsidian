@@ -101,6 +101,9 @@ Not sure about the unreachable nodes or edges. I think all nodes & edges are rea
 ##### Task 03
 Test Case | base | exponent | modulus | Expected Output
 :--: | :-: | : - : | :--: | :--:
-0 | -1 | -1 | -2
-3 | 0 | 0 | 0
-4 | 1 | 1 | 2
+1 | 2 | 0 | 1 | 1
+2 | 2 | 3 | 1 | 0
+3 | 3 | 4 | 1 | 0
+
+---
+##### Task 04
