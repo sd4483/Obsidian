@@ -1,3 +1,7 @@
+---
+quickshare-date: 2023-02-23 15:58:12
+quickshare-url: "https://noteshare.space/note/clehagjsk626101pjf3brqs78#Smo/v9Dgj0ygfzIZRZKQtSGYNLbJlCY+7yzluT7T0qQ"
+---
 ### Exercise 01
 
 ###### Task 01

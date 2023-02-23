@@ -131,19 +131,20 @@
             }
           },
           {
-            "id": "e074614aad326e4b",
+            "id": "2ddce7a1e6fb291e",
             "type": "leaf",
             "state": {
-              "type": "sekund-main-view",
+              "type": "QUICKSHARE_SIDE_VIEW",
               "state": {}
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -153,18 +154,18 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "sekund:Sekund Panes": false
+      "obsidian-markbase:Sync all Markbase projects": false
     }
   },
   "active": "f9474108830bd3d1",
   "lastOpenFiles": [
+    "Software Testing/Labs/Lab 01.md",
     "Scripts/my_script.js",
     "Scripts/my_script.rtf",
     "Scripts/untitled folder",
     "Scripts",
     "untitled folder",
     "Software Testing/Introduction to Software Testing.md",
-    "Software Testing/Labs/Lab 01.md",
     "Software Testing/Lecture 02 (White Box Testing Basics).md",
     "Software Testing/Lecture 03 (Control Flow Testing).md",
     "Blockchain/Brownbag talk by Warner - Slides Notes.md",
