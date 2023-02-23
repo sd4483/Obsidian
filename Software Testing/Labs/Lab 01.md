@@ -120,12 +120,6 @@ Not sure about the unreachable nodes or edges. I think all nodes & edges are rea
 
 ---
 ##### Task 03
-Test Case | base | exponent | modulus | Expected Output
-:--: | :-: | : - : | :--: | :--:
-1 | -2 | 0 | 2 | 1
-2 | 0 | 3 | 2 | 0
-3 | 2 | 2 | 5 | 4
-
 <table style="text-align:center; width:100%;">  
   <tr style="background-color: #dddddd;">  
     <th style="text-align:center">Test Case</th>  
