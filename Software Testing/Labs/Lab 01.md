@@ -80,18 +80,26 @@ Test Case | x | y | Expected Output
     <th>Test Case</th>  
     <th>x</th>  
     <th>y</th>  
-    <th></th>
+    <th>Expected Output</th>
   </tr>  
   <tr>  
-    <td>Alfreds Futterkiste</td>  
-    <td>Maria Anders</td>  
-    <td>Germany</td>  
+    <td>1</td>  
+    <td>-1</td>  
+    <td>-1</td> 
+    <td>-2</td> 
   </tr>  
   <tr>  
-    <td>Centro comercial Moctezuma</td>  
-    <td>Francisco Chang</td>  
-    <td>Mexico</td>  
-  </tr>  
+    <td>2</td>  
+    <td>0</td>  
+    <td>0</td> 
+    <td>0</td> 
+  </tr> 
+  <tr>  
+    <td>3</td>  
+    <td>1</td>  
+    <td>1</td> 
+    <td>2</td> 
+  </tr>   
 </table>
 ---
 ### Exercise 02
