@@ -132,25 +132,28 @@ Test Case | base | exponent | modulus | Expected Output
     <th style="text-align:center">base</th>  
     <th style="text-align:center">exponent</th>  
     <th style="text-align:center">modulus</th>
-    <th style="text-align:center">Expected O</th>
+    <th style="text-align:center">Expected Output</th>
   </tr>  
   <tr>  
     <td>1</td>  
-    <td>-1</td>  
-    <td>-1</td> 
-    <td>-2</td> 
+    <td>-2</td>  
+    <td>0</td> 
+    <td>2</td>
+    <td>1</td>
   </tr>  
   <tr>  
     <td>2</td>  
     <td>0</td>  
-    <td>0</td> 
+    <td>3</td> 
+    <td>5</td>
     <td>0</td> 
   </tr> 
   <tr>  
     <td>3</td>  
-    <td>1</td>  
-    <td>1</td> 
+    <td>2</td>  
     <td>2</td> 
+    <td>5</td>
+    <td>4</td> 
   </tr>   
 </table>
 
