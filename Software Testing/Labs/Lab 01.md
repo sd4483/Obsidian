@@ -66,5 +66,14 @@ Test Case | x | y | Expected Output
 3 | 1 | 1 | 2
 
 
+### Exercise 02
 
+##### Task 01
 
+```mermaid
+flowchart LR
+	id1((1)) --> id3((3)) --> id5((5)) & 
+	id3 --> id5((5))
+	id7 --> id9((9)) --> id10((10)) --> id11((11))
+	id13 --> id15((15)) --> id16((16)) --> id17((17))
+```
