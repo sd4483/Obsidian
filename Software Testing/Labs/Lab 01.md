@@ -75,12 +75,12 @@ Test Case | x | y | Expected Output
 2 | 0 | 0 | 0
 3 | 1 | 1 | 2
 
-<table style="text-align:center; width:100%">  
+<table style="text-align:center; width:100%;">  
   <tr style="background-color: #dddddd;">  
-    <th>Test Case</th>  
-    <th>x</th>  
-    <th>y</th>  
-    <th>Expected Output</th>
+    <th style="text-align:center">Test Case</th>  
+    <th style="text-align:center">x</th>  
+    <th style="text-align:center">y</th>  
+    <th style="text-align:center">Expected Output</th>
   </tr>  
   <tr>  
     <td>1</td>  
