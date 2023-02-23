@@ -75,7 +75,6 @@ Test Case | x | y | Expected Output
 2 | 0 | 0 | 0
 3 | 1 | 1 | 2
 
-
 ---
 ### Exercise 02
 
@@ -118,7 +117,20 @@ The pre-conditions given for the program are **base x is an integer, the exponen
 
 For those conditions, yes it does produce the right output.
 
-**test table** 
-```notion-like-tables
-table-id-SL4vdW
-```
+<table>  
+  <tr>  
+    <th>Company</th>  
+    <th>Contact</th>  
+    <th>Country</th>  
+  </tr>  
+  <tr>  
+    <td>Alfreds Futterkiste</td>  
+    <td>Maria Anders</td>  
+    <td>Germany</td>  
+  </tr>  
+  <tr>  
+    <td>Centro comercial Moctezuma</td>  
+    <td>Francisco Chang</td>  
+    <td>Mexico</td>  
+  </tr>  
+</table>
