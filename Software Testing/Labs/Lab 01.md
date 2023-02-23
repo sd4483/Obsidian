@@ -75,6 +75,24 @@ Test Case | x | y | Expected Output
 2 | 0 | 0 | 0
 3 | 1 | 1 | 2
 
+<table>  
+  <tr>  
+    <th>Test Case</th>  
+    <th>x</th>  
+    <th>y</th>  
+    <th></th>
+  </tr>  
+  <tr>  
+    <td>Alfreds Futterkiste</td>  
+    <td>Maria Anders</td>  
+    <td>Germany</td>  
+  </tr>  
+  <tr>  
+    <td>Centro comercial Moctezuma</td>  
+    <td>Francisco Chang</td>  
+    <td>Mexico</td>  
+  </tr>  
+</table>
 ---
 ### Exercise 02
 
