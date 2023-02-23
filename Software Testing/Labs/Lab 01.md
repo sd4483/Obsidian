@@ -16,7 +16,7 @@ flowchart LR
 	
 	id9 --> id3
 ```
-
+---
 ##### Task 02
 
 ```mermaid
@@ -26,17 +26,20 @@ flowchart LR
 	id5 --> id2
 	id4 --> id2
 ```
-
+---
 ##### Task 03
 
-Possible execution paths of the program:
+**Possible execution paths of the program:**
 $\langle 1,3,4,17 \rangle$
 $\langle 1,3,4,6,11,13,14,4,17 \rangle$
 
-Infeasible paths of the program:
+**Infeasible paths of the program:**
 $\langle 6,8,9 \rangle$
-$\langle 6,8,9,11 \rangle$
-$\langle 8 \rangle$
+$\langle 6,8,9,4,11 \rangle$
+$\langle 6,8,9,4,11,13,14,4,17 \rangle$
+$\langle 6,8,9,4,17 \rangle$
+
+---
 ##### Task 04
 
 ```Java
@@ -62,7 +65,7 @@ flowchart LR
 	id7 --> id3
 	id11 --> id8
 ```
-
+---
 ##### Task 05
 
 Test Case | x | y | Expected Output
@@ -72,6 +75,7 @@ Test Case | x | y | Expected Output
 3 | 1 | 1 | 2
 
 
+---
 ### Exercise 02
 
 ##### Task 01
