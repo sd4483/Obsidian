@@ -89,3 +89,18 @@ flowchart LR
 	id10 --> id1
 	id16 --> id1
 ```
+---
+##### Task 02
+
+I don't think there are any infeasible paths in the program.
+The program does have an issue executing for inputs less than 0 for exponent but that condition is never handled in the program, so that's the program fault, it's a specification issue.
+
+Not sure about the unreachable nodes or edges. I think all nodes & edges are reachable for relevant inputs.
+
+---
+##### Task 03
+Test Case | base | exponent | modulus | Expected Output
+:--: | :-: | : - : | :--: | :--:
+0 | -1 | -1 | -2
+3 | 0 | 0 | 0
+4 | 1 | 1 | 2
