@@ -75,14 +75,14 @@ Test Case | x | y | Expected Output
 2 | 0 | 0 | 0
 3 | 1 | 1 | 2
 
-<table style="text-align:center;">  
-  <tr style="background-color">  
+<table style="text-align:center; width:100%">  
+  <tr style="background-color: #dddddd;">  
     <th>Test Case</th>  
     <th>x</th>  
     <th>y</th>  
     <th>Expected Output</th>
   </tr>  
-  <tr style="text-align:center;">  
+  <tr>  
     <td>1</td>  
     <td>-1</td>  
     <td>-1</td> 
@@ -101,7 +101,9 @@ Test Case | x | y | Expected Output
     <td>2</td> 
   </tr>   
 </table>
+
 ---
+
 ### Exercise 02
 
 ##### Task 01
