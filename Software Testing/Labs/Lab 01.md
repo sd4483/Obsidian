@@ -76,13 +76,13 @@ Test Case | x | y | Expected Output
 3 | 1 | 1 | 2
 
 <table>  
-  <tr>  
+  <tr style="align:center;">  
     <th>Test Case</th>  
     <th>x</th>  
     <th>y</th>  
     <th>Expected Output</th>
   </tr>  
-  <tr>  
+  <tr style="align:center;">  
     <td>1</td>  
     <td>-1</td>  
     <td>-1</td> 
