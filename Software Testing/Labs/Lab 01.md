@@ -101,9 +101,9 @@ Not sure about the unreachable nodes or edges. I think all nodes & edges are rea
 ##### Task 03
 Test Case | base | exponent | modulus | Expected Output
 :--: | :-: | : - : | :--: | :--:
-1 | 2 | 0 | 2 | 1
-2 | 2 | 3 | 2 | 0
-3 | 3 | 4 | 2 | 0
+1 | -2 | 0 | 2 | 1
+2 | 0 | 3 | 2 | 0
+3 | 2 | 4 | 2 | 0
 
 ---
 ##### Task 04
@@ -115,4 +115,4 @@ A high quality test suite covers as many behaviours of the program as possible. 
 
 The pre-conditions given for the program are **base x is an integer, the exponent n is a non-negative integer, and the modulus m is an integer > 1**
 
-For those conditions, yes it does produce the right out
+For those conditions, yes it does produce the right output.
