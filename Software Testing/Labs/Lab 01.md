@@ -50,3 +50,12 @@ public static int addNew(int x, int y) {
 
 Task 05
 
+Test Case | x | y | Expected Output
+-- | - | - | --
+1 | -1 | -1 | -2
+2 | 0 | 0 | 0
+3 | -1 | 0 | -1
+4 | 0 | -1 | -1
+5 | 1 | 1 | 2
+6 | 0 | 1 | 1
+7
