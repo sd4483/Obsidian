@@ -29,7 +29,10 @@ flowchart LR
 
 ##### Task 03
 
-If a path in the graph is not reachible by any input given to the program, that path can be considered as infeasible.
+Execution paths of the program:
+$\langle 1,3,4,17 \rangle$
+$\langle 1,3,4,6,8,9,17 \rangle$
+$\langle 1,3,4,6,11,13,14,4,17 \rangle$
 
 ##### Task 04
 
