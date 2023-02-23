@@ -3,7 +3,8 @@
     "table-id-SL4vdW": {
       "model": {
         "columnIds": [
-          "column-id-T5tqwlxl"
+          "column-id-T5tqwlxl",
+          "column-id-4oLv49TO"
         ],
         "rowIds": [
           "row-id-KYmh4TiF",
@@ -11,7 +12,7 @@
         ],
         "cells": [
           {
-            "id": "cell-id-MQv1yC4L",
+            "id": "cell-id-0V5iZSlI",
             "columnId": "column-id-T5tqwlxl",
             "rowId": "row-id-KYmh4TiF",
             "markdown": "Something",
@@ -19,11 +20,27 @@
             "isHeader": true
           },
           {
-            "id": "cell-id-BSBg1Dkq",
+            "id": "cell-id-ZarVD4Uw",
+            "columnId": "column-id-4oLv49TO",
+            "rowId": "row-id-KYmh4TiF",
+            "markdown": "something else",
+            "html": "something else",
+            "isHeader": true
+          },
+          {
+            "id": "cell-id-uxFlyojS",
             "columnId": "column-id-T5tqwlxl",
             "rowId": "row-id-FQ3gDNRB",
             "markdown": "dadasd",
             "html": "dadasd",
+            "isHeader": false
+          },
+          {
+            "id": "cell-id-5BvvXazo",
+            "columnId": "column-id-4oLv49TO",
+            "rowId": "row-id-FQ3gDNRB",
+            "markdown": "sfsdf",
+            "html": "sfsdf",
             "isHeader": false
           }
         ]
@@ -31,6 +48,14 @@
       "settings": {
         "columns": {
           "column-id-T5tqwlxl": {
+            "sortDir": "default",
+            "width": "120px",
+            "type": "text",
+            "useAutoWidth": true,
+            "shouldWrapOverflow": false,
+            "tags": []
+          },
+          "column-id-4oLv49TO": {
             "sortDir": "default",
             "width": "120px",
             "type": "text",

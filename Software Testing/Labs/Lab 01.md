@@ -118,7 +118,7 @@ The pre-conditions given for the program are **base x is an integer, the exponen
 
 For those conditions, yes it does produce the right output.
 
-test table 
+**test table** 
 ```notion-like-tables
 table-id-SL4vdW
 ```

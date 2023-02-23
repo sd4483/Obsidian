@@ -1,8 +1,8 @@
 ---
-columnIds: ["column-id-T5tqwlxl"]
+columnIds: ["column-id-T5tqwlxl","column-id-4oLv49TO"]
 rowIds: ["row-id-KYmh4TiF","row-id-FQ3gDNRB"]
 ---
 
-| Something |
-| --------- |
-| dadasd    |
+| Something | something else |
+| --------- | -------------- |
+| dadasd    | sfsdf          |
