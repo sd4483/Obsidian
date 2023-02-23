@@ -104,7 +104,7 @@ Test Case | base | exponent | modulus | Expected Output
 :--: | :-: | : - : | :--: | :--:
 1 | -2 | 0 | 2 | 1
 2 | 0 | 3 | 2 | 0
-3 | 2 | 4 | 2 | 0
+3 | 2 | 2 | 5 | 4
 
 ---
 ##### Task 04
