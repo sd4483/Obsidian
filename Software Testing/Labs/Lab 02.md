@@ -13,7 +13,10 @@ Task 01
 Conditoin/Decisoin coverage
 
 Task 02
-c.age <= 18 
-c.age <= 21
-c.isStudent
-c.isPremiumMember
+c.age <= 18  - 18 | 17
+c.age <= 21 -  19 | 21
+c.isStudent - T | F
+c.isPremiumMember - T | F
+c.isPensioner - T | F
+
+Task 03
