@@ -20,12 +20,20 @@ student
 premium
 pensioner
 
-age = 18
+age = 17
+student
+premium = F
+pensioner = F
+
+age = 64
 student
 premium
-pensioner
+pensioner = F
 
-
+age = 66
+student
+premium
+pensioner = T
 
 **if (c.age <= 18 | (c.age <= 21 & c.isStudent))**
 
