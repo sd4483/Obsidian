@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Testing/Labs/Lab 01.md",
+                "file": "Software Testing/Lecture 03 (Control Flow Testing).md",
                 "mode": "preview",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5,
-    "collapsed": true
+    "width": 201.5
   },
   "right": {
     "id": "391e7a62d370867d",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Testing/Labs/Lab 01.md",
+                "file": "Software Testing/Lecture 03 (Control Flow Testing).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Testing/Labs/Lab 01.md",
+                "file": "Software Testing/Lecture 03 (Control Flow Testing).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Testing/Labs/Lab 01.md"
+                "file": "Software Testing/Lecture 03 (Control Flow Testing).md"
               }
             }
           },
@@ -158,9 +157,9 @@
   },
   "active": "f9474108830bd3d1",
   "lastOpenFiles": [
-    "Software Testing/Introduction to Software Testing.md",
-    "Software Testing/Labs/Lab 01.md",
     "Software Testing/Lecture 02 (White Box Testing Basics).md",
+    "Software Testing/Labs/Lab 01.md",
+    "Software Testing/Introduction to Software Testing.md",
     "_notion-like-tables/table-id-SL4vdW.md",
     "_notion-like-tables",
     "Scripts/my_script.js",
