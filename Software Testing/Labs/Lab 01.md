@@ -35,10 +35,8 @@ $\langle 1,3,4,17 \rangle$
 $\langle 1,3,4,6,11,13,14,4,17 \rangle$
 
 **Infeasible paths of the program:**
-$\langle 6,8,9 \rangle$
 $\langle 6,8,9,4,11 \rangle$
 $\langle 6,8,9,4,11,13,14,4,17 \rangle$
-$\langle 6,8,9,4,17 \rangle$
 
 ---
 ##### Task 04
@@ -80,15 +78,9 @@ flowchart LR
     <td>-1</td>  
     <td>-1</td> 
     <td>-2</td> 
-  </tr>  
+  </tr>   
   <tr>  
     <td>2</td>  
-    <td>0</td>  
-    <td>0</td> 
-    <td>0</td> 
-  </tr> 
-  <tr>  
-    <td>3</td>  
     <td>1</td>  
     <td>1</td> 
     <td>2</td> 
@@ -133,24 +125,10 @@ Not sure about the unreachable nodes or edges. I think all nodes & edges are rea
   </tr>  
   <tr>  
     <td>1</td>  
-    <td>-2</td>  
-    <td>0</td> 
-    <td>2</td>
-    <td>1</td>
-  </tr>  
-  <tr>  
-    <td>2</td>  
-    <td>0</td>  
+    <td>1</td>  
     <td>3</td> 
     <td>5</td>
     <td>0</td> 
-  </tr> 
-  <tr>  
-    <td>3</td>  
-    <td>2</td>  
-    <td>2</td> 
-    <td>5</td>
-    <td>4</td> 
   </tr>   
 </table>
 
