@@ -70,6 +70,7 @@ age = 64
 ##### Task 03
 
 c.age <= 18  - 18 | 17
+c.age <= 21 & c.isStudent - T | F
 c.age <= 21 -  19 | 21
 c.isStudent - T | F
 c.isPremiumMember - T | F
