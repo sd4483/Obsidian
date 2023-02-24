@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Software Testing/Labs/Lab 01.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5,
-    "collapsed": true
+    "width": 201.5
   },
   "right": {
     "id": "391e7a62d370867d",
@@ -158,11 +157,11 @@
   },
   "active": "f9474108830bd3d1",
   "lastOpenFiles": [
-    "Software Testing/Lecture 02 (White Box Testing Basics).md",
+    "Software Testing/Introduction to Software Testing.md",
     "Software Testing/Labs/Lab 01.md",
+    "Software Testing/Lecture 02 (White Box Testing Basics).md",
     "_notion-like-tables/table-id-SL4vdW.md",
     "_notion-like-tables",
-    "Software Testing/Introduction to Software Testing.md",
     "Scripts/my_script.js",
     "Scripts/my_script.rtf",
     "Scripts/untitled folder",
