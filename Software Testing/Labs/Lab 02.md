@@ -9,5 +9,7 @@ Modified/Condition coverage is C/D + something
 
 Exercise 02
 
-1. Conditoin/Decisoin coverage
-2. 
+Task 01
+Conditoin/Decisoin coverage
+
+Task 02
