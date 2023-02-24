@@ -157,7 +157,9 @@ Not sure about the unreachable nodes or edges. I think all nodes & edges are rea
 ---
 ##### Task 04
 
-A high quality test suite covers as many behaviours of the program as possible. I don't think we can consider the c1 test suite as high quality for this program as it only ensures whether a certain input reaches the edges of the program graph. There are some inputs which the program might not be able to handle which are not covered in the c1 test suite.
+A high quality test suite covers as many behaviours of the program as possible. 
+c1 could be considered as a high quality test case which could give us a basic test benchmark.
+I don't think we can consider the c1 test suite as high quality for this program as it only ensures whether a certain input reaches the edges of the program graph. There are some inputs which the program might not be able to handle which are not covered in the c1 test suite.
 
 ---
 ##### Task 05
