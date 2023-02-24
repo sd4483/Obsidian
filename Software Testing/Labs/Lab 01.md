@@ -159,11 +159,11 @@ Not sure about the unreachable nodes or edges. I think all nodes & edges are rea
 
 A high quality test suite covers as many behaviours of the program as possible. 
 c1 could be considered as a high quality test case which could give us a basic test benchmark.
-I don't think we can consider the c1 test suite as high quality for this program as it only ensures whether a certain input reaches the edges of the program graph. There are some inputs which the program might not be able to handle which are not covered in the c1 test suite.
+But there are some inputs which the program might not be able to handle which are not covered in the c1 test suite.
 
 ---
 ##### Task 05
 
 The pre-conditions given for the program are **base x is an integer, the exponent n is a non-negative integer, and the modulus m is an integer > 1**
 
-For those conditions, yes it does produce the right output.
+For those conditions, yes it does produce the right output but there is no upper limit given so we are not sure how it will peform for high integers.
