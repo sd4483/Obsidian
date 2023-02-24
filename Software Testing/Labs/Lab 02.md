@@ -16,23 +16,23 @@ Conditoin/Decisoin coverage
 ##### Task 02
 
 age = 22
-student
-premium
-pensioner
+student = F
+premium = F
+pensioner = F
 
 age = 17
-student
+student = T
 premium = F
 pensioner = F
 
 age = 64
-student
-premium
+student = F
+premium = F
 pensioner = F
 
 age = 66
-student
-premium
+student = F
+premium = F
 pensioner = T
 
 **if (c.age <= 18 | (c.age <= 21 & c.isStudent))**
