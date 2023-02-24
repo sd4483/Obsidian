@@ -16,8 +16,13 @@ Conditoin/Decisoin coverage
 ##### Task 02
 
 if (c.age <= 18 | (c.age <= 21 & c.isStudent))
-age = 17
-age = 
+
+age = 21
+student = T
+
+age = 22
+student = F
+
 if (c.isStudent & c.age > 21)
 
 if (c.isPremiumMember & c.age > 18)
