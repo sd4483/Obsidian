@@ -34,10 +34,19 @@ age = 19
 **if (c.isPremiumMember & c.age > 18)**
 
 PremiumMember = T
+age = 21
 
+
+PremiumMember = F
+age = 17
 
 **if (c.isPensioner | c.age >= 65)**
 
+Pensioner = T
+age = 66
+
+Pensioner = F
+age = 64
 
 ##### Task 03
 
