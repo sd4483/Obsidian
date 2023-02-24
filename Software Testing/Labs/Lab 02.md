@@ -15,7 +15,7 @@ Conditoin/Decisoin coverage
 
 ##### Task 02
 
-if (c.age <= 18 | (c.age <= 21 & c.isStudent))
+**if (c.age <= 18 | (c.age <= 21 & c.isStudent))**
 
 age = 21
 student = T
@@ -23,11 +23,20 @@ student = T
 age = 22
 student = F
 
-if (c.isStudent & c.age > 21)
+**if (c.isStudent & c.age > 21)**
 
-if (c.isPremiumMember & c.age > 18)
+student = T
+age = 22
 
-if (c.isPensioner | c.age >= 65)
+student = F
+age = 19
+
+**if (c.isPremiumMember & c.age > 18)**
+
+PremiumMember = T
+
+
+**if (c.isPensioner | c.age >= 65)**
 
 
 ##### Task 03
