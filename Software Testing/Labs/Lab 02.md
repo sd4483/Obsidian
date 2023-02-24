@@ -15,6 +15,18 @@ Conditoin/Decisoin coverage
 
 ##### Task 02
 
+age = 22
+student
+premium
+pensioner
+
+age = 18
+student
+premium
+pensioner
+
+
+
 **if (c.age <= 18 | (c.age <= 21 & c.isStudent))**
 
 age = 21
