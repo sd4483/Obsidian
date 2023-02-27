@@ -82,8 +82,8 @@ How
 	- Typically, it's a good idea to have high coverage and low complexity. Fix the coverage and minimise the complexity.
 - **Two types of testing**
 	Test cases can be derived from either code or from specification. A much more robust way of doing testing is to derive test cases from both code and specification.
-	- **Black Box Testing:** Test cases are designed based on specification. We look for faults in the code particularly things like missing features, not adhering to specification (*implementation not done for something specified*), etc. 
-	- **White Box testing:** Test cases are designed based on implementation (code). We look for things like implementations that 
+	- **Black Box Testing:** Test cases are designed based on specification. We look for faults in the code particularly things like ==missing features, not adhering to specification== (*implementation not done for something specified*), etc. 
+	- **White Box testing:** Test cases are designed based on implementation (code). We look for things like ==functionalities implemented in the code but not mentioned in the specification== and other ==faults which might not be apparent by just looking at specification==. A much simpler explanation is, we look for behavious of the systems where it does something that it is not supposed to do, like having an extra functionality that is not in specification.
 
 ##### Testing vs Formal Verification
 - ==**Formal verification is another way to verify the software using mathematical analysis of the code.**== 
