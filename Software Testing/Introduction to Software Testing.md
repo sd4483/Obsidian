@@ -104,6 +104,10 @@ To understand the reason for the need to do **White Box Testing**, understand wh
 
 What the above definition of **A good specification** means for testing is, ==if we design test cases based only on the specification given, those test cases do not cover the undesirable behaviours the system might have==. Like for example, arithmetic errors, infinite loops, unreachable code, etc.
 
+White box testing is used less compared to Black box testing. Here is some of it's limitations.
+
+Limitations of White box testing:
+- Test cases are designed based ont 
 ##### Testing vs Formal Verification
 - ==**Formal verification is another way to verify the software using mathematical analysis of the code.**== 
 	- A formal specification is used to check whether the program adheres to it.
