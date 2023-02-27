@@ -1,4 +1,9 @@
-#### How software is developed (steps involved):
+What
+Why 
+How
+
+
+### How software is developed (steps involved):
 1. **Requirements gathering**
 	- Sometimes the requirements are clearly listed down which is not usually the case.
 	- Sometimes there's only a business objective and requirements have to be deduced or gathered from the objectives.
@@ -13,13 +18,14 @@
 
 **These 5 steps are typically performed in an iterative and incremental manner.**
 
+---
 ##### Verification vs Validation
 - **Formal definitions:**
 	- ==**Verification**== 'Are we building the right thing?' (i.e., does the system meet its specification)
 	- ==**Validation**== 'Are we building the right product?' (i.e., does the system meet the user's requirements?)
 - Validation is usually done at the end of the developement of a certain part of the prototype or it could be after the entire software has been built.
 - Verification occurs at every stage of development.
-
+---
 ##### Software Development Processes
 - If the product built is not what the client actually wants, that means the specification was wrong and the entire software might even have to rebuilt.
 - In order to address the issue of products not meeting requirements or specifications  being wrong, people have come up with a number of software development process.
@@ -33,7 +39,7 @@
 - ==**Verification and validation are key steps**== - these are the steps where faults are identified typically and in early stages. If faults go undetected for a long time, they become more and more expensive to fix.
 - Here is where ==**SOFTWARE TESTING**== comes in. It involves verification and vaildation of the system to assess whether it meets our requirements and precisely whether it works the way its intended.
 
-#### Software Testing
+### Software Testing
 - Software testing involves verification and vaildation of the system to assess whether it meets our requirements and precisely whether it works the way its intended. [repeated from above]
 >"**Testing can be used to show the presence of bugs, but never to show their absence.**"
 >\- Dijkstra, 1970
@@ -42,6 +48,16 @@
 >[!tip] Philosophy 
 >- It shouldn't be used as evidence to support your theory that the program works correctly. It should be the other way around, testing to challenge your assumptions and find some evidence to test whether the system works appropriately.
 >- Your attitude shouldn't be - let's try to test it to see if it works. It should be - let's try to break it and if cannot break it, there's some evidence that it works. 
+- **A simple representation of testing**
+	```mermaid
+	flowchart LR
+		C[Code] -- depends on ----> S[Specification]
+	```
+	```mermaid
+	flowchart LR
+		T[Tests] -- depend on ----> C[Code]
+		T -- depend on ----> S[Specification]
+	```
 - **Testing strategy**
 	- A good testing strategy is designed to find as many faults as possible.
 	- A good testing strategy would be - I tried my hardest to break the program and I couldn't break it.
@@ -65,6 +81,41 @@
 		- Which costs are most relavent is highly context dependent.
 	- Typically, it's a good idea to have high coverage and low complexity. Fix the coverage and minimise the complexity.
 
+#### Two types of testing
+Test cases can be derived from either code or from specification. A robust way of doing testing is to derive test cases from both code and specification.
+
+##### Black Box Testing
+Test cases are designed based on **specification**. 
+
+We look for faults in the code particularly things like ==missing features, not adhering to specification== (*implementation not done for something specified*), etc. 
+
+##### White Box Testing
+Test cases are designed based on **implementation** (code). 
+
+We look for things like ==functionalities implemented in the code but not mentioned in the specification== and other ==faults which might not be apparent by just looking at specification==. 
+
+A much simpler explanation is, we look for behavious of the systems where it does something that it is not supposed to do, like having an extra functionality that is not in specification.
+
+To understand the reason for the need to do **White Box Testing**, understand what a good specification should be.
+
+>[!note] A good specification
+>- A good specification doesn't specify how the system should be implemented. To be formal - It shouldn't specify how the system is to achieve its desired behaviour.
+>- A good specification is like a contract, it should state what the system is required to do and that's all.
+
+What the above definition of **A good specification** means for testing is, ==if we design test cases based only on the specification given, those test cases do not cover the undesirable behaviours the system might have==. Like for example, arithmetic errors, infinite loops, unreachable code, etc.
+
+White box testing is used less compared to Black box testing. Here is some of it's limitations.
+
+**Limitations of White box testing:**
+- Test cases are designed based on the code, which means we check the implementation but not whether the implementation covers all the specified behaviours.
+- In modern development methodologies like Agile, code is often re-written (refactored) to improve it or maintain it better. This means the ==test-suite has to be re-written whenever the code is refactored==. Also, this makes the code less stabe and as a result, the test cases become less effective.
+- White box testing ==cannot be used for test-driven development== where development is done by writing a failing test case based on a specification and then implementing the functionality such that the test case passes, which implies that the specification has been implemented. 
+
+**Applications of White box testing:**
+- Used in addition (as complement) to black box testing.
+- It is applied to stable code before deployment.
+- White box testing is important is ==safety-critical applications== where a small error in code could lead to a catastrophic failure. In some contexts like Airplanes, a certification might even be required to show that the code has been tested with a test suite that meets a certain coverage criterion.
+- Another application area is ==testing code that implements some well-defined mathematical functionality==. Example like maths libraries in programming languages like Python, Java, etc. These libraries are implemented once and are used for decades and decades with wide applications. So it's important to test the code for any small errors. 
 ##### Testing vs Formal Verification
 - ==**Formal verification is another way to verify the software using mathematical analysis of the code.**== 
 	- A formal specification is used to check whether the program adheres to it.

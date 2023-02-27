@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "bb1e2feb0aab2292",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.15"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,8 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bb1e2feb0aab2292",
+  "active": "e60557360ab6f48a",
   "lastOpenFiles": [
+    "_notion-like-tables/table-id-SL4vdW.md",
+    "_notion-like-tables",
+    "Software Testing/White Box Testing.md",
+    "Software Testing/Labs/Lab 02.md",
+    "Software Testing/Labs/Lab 01.md",
     "Blockchain/Brownbag talk by Warner - Slides Notes.md",
     "Exam Prep/Embedded Systems.md",
     "Exam Prep/Operating Systems.md",
