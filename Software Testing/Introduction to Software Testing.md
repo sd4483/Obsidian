@@ -45,7 +45,7 @@
 >- Your attitude shouldn't be - let's try to test it to see if it works. It should be - let's try to break it and if cannot break it, there's some evidence that it works. 
 - A simple representation of testing
 	```mermaid
-	flowchart LR
+	flowchart TD
 		C[Code] -- depends on --> S[Specification]
 		T[Tests] -- depend on --> C
 		T -- depend on --> S
