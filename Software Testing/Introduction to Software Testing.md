@@ -106,9 +106,9 @@ What the above definition of **A good specification** means for testing is, ==if
 
 White box testing is used less compared to Black box testing. Here is some of it's limitations.
 
-Limitations of White box testing:
+**Limitations of White box testing:**
 - Test cases are designed based on the code, which means we check the implementation but not whether the implementation covers all the specified behaviours.
-- In modern development methodologies like Agile, code is often re-written (refactored) to improve it or maintain it better. This means the test-suite has to be re-written as well whenever the code is refactored.
+- In modern development methodologies like Agile, code is often re-written (refactored) to improve it or maintain it better. This means the test-suite has to be re-written whenever the code is refactored. Also, this makes the code less stabe and as a result, the test cases become less effective.
 - White box testing cannot be used for test-driven development where development is done by writing a failing test case based on a specification and then implementing the functionality such that the test case passes, which implies that the specification has been implemented. 
 ##### Testing vs Formal Verification
 - ==**Formal verification is another way to verify the software using mathematical analysis of the code.**== 
