@@ -47,8 +47,8 @@
 	```mermaid
 	flowchart LR
 		C[Code] -- depends on --> S[Specification]
-		
-		
+		T[Tests] -- depend on --> C
+		T -- depend on --> S
 	```
 - **Testing strategy**
 	- A good testing strategy is designed to find as many faults as possible.
@@ -72,6 +72,9 @@
 	- **Complexity**: Measure of the costs of constructing, executing, and maintaining a test  suite.
 		- Which costs are most relavent is highly context dependent.
 	- Typically, it's a good idea to have high coverage and low complexity. Fix the coverage and minimise the complexity.
+- **Two types of testing**
+	- **Black Box Testing:** Test cases are designed based on specification. 
+	- **White Box testing:** Test cases are designed based on implementation.
 
 ##### Testing vs Formal Verification
 - ==**Formal verification is another way to verify the software using mathematical analysis of the code.**== 
