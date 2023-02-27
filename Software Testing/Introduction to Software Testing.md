@@ -96,6 +96,12 @@ We look for things like ==functionalities implemented in the code but not mentio
 
 A much simpler explanation is, we look for behavious of the systems where it does something that it is not supposed to do, like having an extra functionality that is not in specification.
 
+To understand the reason for the need to do **White Box Testing**, understand what a good specification should be.
+
+>[!note]
+>A good specification doesn't specify how the system should be implemented. To be m
+
+
 ##### Testing vs Formal Verification
 - ==**Formal verification is another way to verify the software using mathematical analysis of the code.**== 
 	- A formal specification is used to check whether the program adheres to it.
