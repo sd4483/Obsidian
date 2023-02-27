@@ -98,9 +98,11 @@ A much simpler explanation is, we look for behavious of the systems where it doe
 
 To understand the reason for the need to do **White Box Testing**, understand what a good specification should be.
 
->[!note]
->A good specification doesn't specify how the system should be implemented. To be m
+>[!note] A good specification
+>- A good specification doesn't specify how the system should be implemented. To be formal - It shouldn't specify how the system is to achieve its desired behaviour.
+>- A good specification is like a contract, it should state what the system is required to do and that's all.
 
+What the above definition of **A good specification** means for testing is, ==if we design test cases based only on the specification given, those test cases do not cover the undesirable behaviours the system might have==. Like for example, arithmetic errors, infinite loops, unreachable code, etc.
 
 ##### Testing vs Formal Verification
 - ==**Formal verification is another way to verify the software using mathematical analysis of the code.**== 
