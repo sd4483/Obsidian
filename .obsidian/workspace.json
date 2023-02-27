@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Testing/White Box Testing Basics).md",
-                "mode": "source",
+                "file": "Software Testing/Introduction to Software Testing.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5,
-    "collapsed": true
+    "width": 201.5
   },
   "right": {
     "id": "391e7a62d370867d",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Testing/White Box Testing Basics).md",
+                "file": "Software Testing/Introduction to Software Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Testing/White Box Testing Basics).md",
+                "file": "Software Testing/Introduction to Software Testing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Testing/White Box Testing Basics).md"
+                "file": "Software Testing/Introduction to Software Testing.md"
               }
             }
           },
@@ -158,10 +157,10 @@
   },
   "active": "3ca29f9c6f6a7e00",
   "lastOpenFiles": [
+    "Software Testing/White Box Testing.md",
     "Software Testing/Labs/Lab 02.md",
     "Software Testing/Labs/Lab 01.md",
     "Software Testing/Lecture 03 (Control Flow Testing).md",
-    "Software Testing/White Box Testing Basics).md",
     "Software Testing/Introduction to Software Testing.md",
     "_notion-like-tables/table-id-SL4vdW.md",
     "_notion-like-tables",
