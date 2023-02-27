@@ -1,3 +1,8 @@
+What
+Why 
+How
+
+
 #### How software is developed (steps involved):
 1. **Requirements gathering**
 	- Sometimes the requirements are clearly listed down which is not usually the case.
@@ -76,6 +81,7 @@
 		- Which costs are most relavent is highly context dependent.
 	- Typically, it's a good idea to have high coverage and low complexity. Fix the coverage and minimise the complexity.
 - **Two types of testing**
+	Test cases can be derived from either code or from specification. A much more robust way of doing testing is to derive test cases from both code and specification
 	- **Black Box Testing:** Test cases are designed based on specification. 
 	- **White Box testing:** Test cases are designed based on implementation.
 
