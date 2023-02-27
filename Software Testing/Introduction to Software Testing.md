@@ -3,7 +3,7 @@ Why
 How
 
 
-#### How software is developed (steps involved):
+### How software is developed (steps involved):
 1. **Requirements gathering**
 	- Sometimes the requirements are clearly listed down which is not usually the case.
 	- Sometimes there's only a business objective and requirements have to be deduced or gathered from the objectives.
@@ -39,7 +39,7 @@ How
 - ==**Verification and validation are key steps**== - these are the steps where faults are identified typically and in early stages. If faults go undetected for a long time, they become more and more expensive to fix.
 - Here is where ==**SOFTWARE TESTING**== comes in. It involves verification and vaildation of the system to assess whether it meets our requirements and precisely whether it works the way its intended.
 
-#### Software Testing
+### Software Testing
 - Software testing involves verification and vaildation of the system to assess whether it meets our requirements and precisely whether it works the way its intended. [repeated from above]
 >"**Testing can be used to show the presence of bugs, but never to show their absence.**"
 >\- Dijkstra, 1970
@@ -80,10 +80,21 @@ How
 	- **Complexity**: Measure of the costs of constructing, executing, and maintaining a test  suite.
 		- Which costs are most relavent is highly context dependent.
 	- Typically, it's a good idea to have high coverage and low complexity. Fix the coverage and minimise the complexity.
-- **Two types of testing**
-	Test cases can be derived from either code or from specification. A much more robust way of doing testing is to derive test cases from both code and specification.
-	- **Black Box Testing:** Test cases are designed based on specification. We look for faults in the code particularly things like ==missing features, not adhering to specification== (*implementation not done for something specified*), etc. 
-	- **White Box testing:** Test cases are designed based on implementation (code). We look for things like ==functionalities implemented in the code but not mentioned in the specification== and other ==faults which might not be apparent by just looking at specification==. A much simpler explanation is, we look for behavious of the systems where it does something that it is not supposed to do, like having an extra functionality that is not in specification.
+
+#### Two types of testing
+Test cases can be derived from either code or from specification. A robust way of doing testing is to derive test cases from both code and specification.
+
+##### Black Box Testing
+Test cases are designed based on **specification**. 
+
+We look for faults in the code particularly things like ==missing features, not adhering to specification== (*implementation not done for something specified*), etc. 
+
+##### White Box testing
+Test cases are designed based on **implementation** (code). 
+
+We look for things like ==functionalities implemented in the code but not mentioned in the specification== and other ==faults which might not be apparent by just looking at specification==. 
+
+A much simpler explanation is, we look for behavious of the systems where it does something that it is not supposed to do, like having an extra functionality that is not in specification.
 
 ##### Testing vs Formal Verification
 - ==**Formal verification is another way to verify the software using mathematical analysis of the code.**== 
