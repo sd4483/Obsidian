@@ -43,12 +43,15 @@
 >[!tip] Philosophy 
 >- It shouldn't be used as evidence to support your theory that the program works correctly. It should be the other way around, testing to challenge your assumptions and find some evidence to test whether the system works appropriately.
 >- Your attitude shouldn't be - let's try to test it to see if it works. It should be - let's try to break it and if cannot break it, there's some evidence that it works. 
-- A simple representation of testing
+- **A simple representation of testing**
 	```mermaid
-	flowchart TD
-		C[Code] -- depends on --> S[Specification]
-		T[Tests] -- depend on --> C
-		T -- depend on --> S
+	flowchart LR
+		C[Code] -- depends on ----> S[Specification]
+	```
+	```mermaid
+	flowchart LR
+		T[Tests] -- depend on ----> C[Code]
+		T -- depend on ----> S[Specification]
 	```
 - **Testing strategy**
 	- A good testing strategy is designed to find as many faults as possible.
