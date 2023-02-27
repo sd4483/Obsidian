@@ -46,10 +46,7 @@
 - A simple representation of testing
 	```mermaid
 	flowchart LR
-		idcode((Code)) -- depends on --> idspec((Specification))
-			direction BT
-			idtest((Tests)) -- depend on --> idcode
-			idtest -- depend on --> idspec
+		C[Code] --> | depends on | S[Specification]
 	```
 - **Testing strategy**
 	- A good testing strategy is designed to find as many faults as possible.
