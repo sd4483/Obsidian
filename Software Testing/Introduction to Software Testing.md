@@ -43,6 +43,13 @@
 >[!tip] Philosophy 
 >- It shouldn't be used as evidence to support your theory that the program works correctly. It should be the other way around, testing to challenge your assumptions and find some evidence to test whether the system works appropriately.
 >- Your attitude shouldn't be - let's try to test it to see if it works. It should be - let's try to break it and if cannot break it, there's some evidence that it works. 
+- A simple representation of testing
+	```mermaid
+	flowchart LR
+		idcode((Code)) -- depends on --> idspec((Specification))
+		idtest((Tests)) -- depend on --> idcode
+		idtest -- depend on --> idspec
+	```
 - **Testing strategy**
 	- A good testing strategy is designed to find as many faults as possible.
 	- A good testing strategy would be - I tried my hardest to break the program and I couldn't break it.
