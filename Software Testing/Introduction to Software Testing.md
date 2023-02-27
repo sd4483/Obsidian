@@ -48,6 +48,7 @@
 	flowchart LR
 		C[Code] -- depends on --> S[Specification]
 		
+		
 	```
 - **Testing strategy**
 	- A good testing strategy is designed to find as many faults as possible.
