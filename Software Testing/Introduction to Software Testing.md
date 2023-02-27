@@ -47,8 +47,9 @@
 	```mermaid
 	flowchart LR
 		idcode((Code)) -- depends on --> idspec((Specification))
-		idtest((Tests)) -- depend on --> idcode
-		idtest -- depend on --> idspec
+			direction BT
+			idtest((Tests)) -- depend on --> idcode
+			idtest -- depend on --> idspec
 	```
 - **Testing strategy**
 	- A good testing strategy is designed to find as many faults as possible.
