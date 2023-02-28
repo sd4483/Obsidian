@@ -1,11 +1,12 @@
 ```mermaid
-mermaid.flowchartConfig = { width: 100% }
 flowchart TB
-	software[How software is developed]-->req[Requirements Gathering]
+su
+	software[How software \n is developed]-->req[Requirements \n Gathering]
 	req --> spec[Specifications] --> impl[Implementation]
 	impl --> verif[Verification]
 	subgraph Software Testing
-	verif --> val[Validation]
+		direction LR
+		verif --> val[Validation]
 	end
 	
 ```
