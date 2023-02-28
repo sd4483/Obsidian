@@ -93,6 +93,7 @@ Coverage criteria are heuristics (*strategies derived from previous experiences 
 
 Coverage criteria is usually qualitative - meaning all we can know is whether the criteria is fullfilled or not. Some quantitative coverage criteria exists that can tell us how much criteria is fulfilled (like percentage).
 
+In reality, specifications provided are informal and it's hard to get a precise and measurable coverage criteria from specification-based test suites. So, coverage criteria is usually code-based, meaning it's about how good the test suite covers the code.
 
 **Complexity** 
 
