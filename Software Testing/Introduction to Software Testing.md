@@ -72,14 +72,18 @@ How
 		- It's possible that in this process new errors might happen which would then need to be resolved.
 - **Test case**: description of a single experiment
 - **Test suite**: collection of test cases
-- While designing a test suite, keep in mind the ==**Coverage vs Complexity trade-off**==.
-	- **Coverage**: Extent to which a test suite covers the qualitativelty different behaviours of the system under test (SUT).
-		- We want to cover as many different behavious of the system as possible. 
-		- Coverage could also depend on our own definition of what we want to cover in the test suite (**==coverage criteria==**).
-		- The idea is to have a high coverage -> high ability to detect faults in the system
-	- **Complexity**: Measure of the costs of constructing, executing, and maintaining a test  suite.
-		- Which costs are most relavent is highly context dependent.
-	- Typically, it's a good idea to have high coverage and low complexity. Fix the coverage and minimise the complexity.
+
+While designing a test suite, keep in mind the ==**Coverage vs Complexity trade-off**==.
+
+**Coverage**: Extent to which a test suite covers the qualitativelty different behaviours of the system under test (SUT).
+	- We want to cover as many different behavious of the system as possible. 
+	- Coverage could also depend on our own definition of what we want to cover in the test suite (**==coverage criteria==**).
+	- The idea is to have a high coverage -> high ability to detect faults in the system
+
+**Complexity**: Measure of the costs of constructing, executing, and maintaining a test  suite.
+	- Which costs are most relavent is highly context dependent.
+
+Typically, it's a good idea to have high coverage and low complexity. Fix the coverage and minimise the complexity.
 
 #### Two types of testing
 Test cases can be derived from either code or from specification. A robust way of doing testing is to derive test cases from both code and specification.
