@@ -12,11 +12,11 @@ flowchart TB
 
 ```mermaid
 flowchart LR
-	SWT[Software Testing] --> WBT[White Box Testing \n (Code)]
-
-		SWT[Software Testing] --> S[Specification]
-	end
+	SWT[Software Testing] --> WBT[White Box Testing \n <mark>Code</mark>] & BBT[Black Box Testing \n <mark>Specification</mark>]	
 	
+	WBT --> TSW[Test Suite]
+	TSW --> TCW1[Test Case #1] & TCW2[Test Case #2] & TCW3[Test Case #3]
 	
-	TS --> TC1[Test Case #1] & TC2[Test Case #2] & TC3[Test Case #3]
+	BBT --> TSB[Test Suite]
+	TSB --> TCB1[Test Case #1] & TCB2[Test Case #2] & TCB3[Test Case #3]
 ```
