@@ -118,7 +118,7 @@ White box testing is used less compared to Black box testing. Here is some of it
 - Another application area is ==testing code that implements some well-defined mathematical functionality==. Example like maths libraries in programming languages like Python, Java, etc. These libraries are implemented once and are used for decades and decades with wide applications. So it's important to test the code for any small errors. 
 
 Coverage Criteria
-
+-
 ##### Testing vs Formal Verification
 - ==**Formal verification is another way to verify the software using mathematical analysis of the code.**== 
 	- A formal specification is used to check whether the program adheres to it.
