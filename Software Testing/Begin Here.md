@@ -4,4 +4,8 @@ flowchart TD
 	req --> spec[Specifications] --> impl[Implementation]
 	impl --> verif[Verification]
 	verif ---> val[Validation]
+	subgraph Software Testing
+		direction BT
+		main[Software Testing] --> verif & val
+	end
 ```

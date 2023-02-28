@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Testing/Introduction to Software Testing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6e2bcc5c93d1d6ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Software Testing/Begin Here.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -168,7 +155,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6e2bcc5c93d1d6ae",
+  "active": "3ca29f9c6f6a7e00",
   "lastOpenFiles": [
     "Software Testing/Introduction to Software Testing.md",
     "Software Testing/Begin Here.md",
