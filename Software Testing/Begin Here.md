@@ -1,6 +1,7 @@
 ```mermaid
 flowchart TD
-	id_software((How software is developed)) --> id_req((Requirements Gathering))
-	id_req --> id_spec((Specifications)) --> id_impl((Implementation))
-	id_impl --> id_verif((Verification)) --> id_val(())
+	software[How software is developed]-->req[Requirements Gathering]
+	req --> spec[Specifications] --> impl[Implementation]
+	impl --> verif[Verification]
+	verif ---> val[Validation]
 ```
