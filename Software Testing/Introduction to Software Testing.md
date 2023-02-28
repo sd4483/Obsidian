@@ -75,13 +75,27 @@ How
 
 While designing a test suite, keep in mind the ==**Coverage vs Complexity trade-off**==.
 
-**Coverage**: Extent to which a test suite covers the qualitativelty different behaviours of the system under test (SUT).
-	- We want to cover as many different behavious of the system as possible. 
-	- Coverage could also depend on our own definition of what we want to cover in the test suite.
-	- The idea is to have a high coverage -> high ability to detect faults in the system
+**Coverage** 
 
-**Complexity**: Measure of the costs of constructing, executing, and maintaining a test  suite.
-	- Which costs are most relavent is highly context dependent.
+Extent to which a test suite covers the qualitativelty different behaviours of the system under test (SUT).
+
+We want to cover as many different behavious of the system as possible. 
+
+Coverage could also depend on our own definition of what we want to cover in the test suite.
+
+The idea is to have a high coverage -> high ability to detect faults in the system
+
+**Coverage Criteria** 
+
+As mentioned above, coverage is about how good the test suite can check different behaviours of the system. 
+
+Coverage criteria are heuristics (*strategies derived from previous experiences with similar probems* - wikipedia) that can help us ==qualitatively measure the coverage of the test suite==. 
+
+**Complexity** 
+
+Measure of the costs of constructing, executing, and maintaining a test  suite.
+
+Which costs are most relavent is highly context dependent.
 
 Typically, it's a good idea to have high coverage and low complexity. Fix the coverage and minimise the complexity.
 
