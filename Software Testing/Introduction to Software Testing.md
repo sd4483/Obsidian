@@ -101,7 +101,7 @@ A good understanding of code-based coverage, will help in the design of a specif
 
 For formal specifications, there are specific coverage criteria to measure how good the test suite is to verify the system based on formal specification.
 
-**Coverage & Graphs** : Test coverage is defined based on how much of the program graph is covered based on the given set of paths (eg: all nodes, all edges, all paths of a certain length)
+**Coverage & Graphs**: Test coverage is defined based on how much of the program graph is covered based on the given set of paths (eg: all nodes, all edges, all paths of a certain length). This is where C0, C1, etc. coverage comes in.
 
 **Complexity** 
 
@@ -139,6 +139,8 @@ White box testing is used less compared to Black box testing. Here is some of it
 When designing a White Box Test suite, the approach to take is;
 - Select a suitable code-based coverage criteria based on the understanding of what coverage criteria would be best for that particular program
 - Select a test suite that has minimal complexity meaning it uses as few resources as possible but still satisfies the coverage criteria.
+
+The intuition behind White Box Testing is, defining a coverage criteria and then finding a test suite that provides that coverage criteria.
 
 **Limitations of White box testing:**
 - Test cases are designed based on the code, which means we check the implementation but not whether the implementation covers all the specified behaviours.
