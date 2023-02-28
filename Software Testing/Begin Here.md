@@ -1,11 +1,11 @@
 ```mermaid
-flowchart TD
+mermaid.flowchartConfig = { width: 100% }
+flowchart TB
 	software[How software is developed]-->req[Requirements Gathering]
 	req --> spec[Specifications] --> impl[Implementation]
 	impl --> verif[Verification]
-	verif ---> val[Validation]
 	subgraph Software Testing
-		direction BT
-		main[Software Testing] --> verif & val
+	verif --> val[Validation]
 	end
+	
 ```
