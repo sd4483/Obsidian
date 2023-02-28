@@ -95,7 +95,7 @@ Coverage criteria is usually qualitative - meaning all we can know is whether th
 
 In reality, specifications provided are informal and it's hard to get a precise and measurable coverage criteria from just specifications (meaning it's hard to write a test case with good coverage based on specifications alone). 
 
-So, ==coverage criteria is usually code-based==, meaning it's about how good the test suite covers the code. A good understanding of code-based coverage, will help in the design of a specification based test suite with good coverage.
+So, ==coverage criteria is usually code-based==, meaning it's about how good the test suite covers the code. A good understanding of code-based coverage, will help in the design of a specification based test suite with good coverage i.e. when the specifications given are informal. for for
 
 **Complexity** 
 
