@@ -130,7 +130,7 @@ White box testing is used less compared to Black box testing. Here is some of it
 
 When designing a White Box Test suite, the approach to take is;
 - Select a suitable code-based coverage criteria based on the understanding of what coverage criteria would be best for that particular program
-- 
+- Select a test suite that has minimal complexity meaning it uses as few resources as possible but still satisfies the coverage criteria.
 
 **Limitations of White box testing:**
 - Test cases are designed based on the code, which means we check the implementation but not whether the implementation covers all the specified behaviours.
