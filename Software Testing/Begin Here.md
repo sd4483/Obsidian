@@ -9,3 +9,14 @@ flowchart TB
 	end
 	
 ```
+
+```mermaid
+flowchart LR
+	subgraph White Box Testing
+		Software Testing --> Code
+	end
+	subgraph Black Box Testing 
+		Software Testing --> Specification
+	end
+	White Box Testing 
+```
