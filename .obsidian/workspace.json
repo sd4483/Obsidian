@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6e2bcc5c93d1d6ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software Testing/Begin Here.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5,
-    "collapsed": true
+    "width": 201.5
   },
   "right": {
     "id": "391e7a62d370867d",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Testing/Introduction to Software Testing.md",
+                "file": "Software Testing/Begin Here.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Testing/Introduction to Software Testing.md",
+                "file": "Software Testing/Begin Here.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Testing/Introduction to Software Testing.md"
+                "file": "Software Testing/Begin Here.md"
               }
             }
           },
@@ -156,10 +168,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3ca29f9c6f6a7e00",
+  "active": "6e2bcc5c93d1d6ae",
   "lastOpenFiles": [
-    "Software Testing/Labs/Lab 01.md",
     "Software Testing/Introduction to Software Testing.md",
+    "Software Testing/Begin Here.md",
+    "Software Testing/Labs/Lab 01.md",
     "Software Testing/White Box Testing.md",
     "Software Testing/Labs/Lab 02.md",
     "Software Testing/Lecture 03 (Control Flow Testing).md",
