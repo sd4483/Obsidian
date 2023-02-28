@@ -101,6 +101,8 @@ A good understanding of code-based coverage, will help in the design of a specif
 
 For formal specifications, there are specific coverage criteria to measure how good the test suite is to verify the system based on formal specification.
 
+**Coverage & Graphs** : Test coverage is defined based on how much of the program graph is covered based on the given set of paths (eg: all nodes, all edges, all paths of a certain length)
+
 **Complexity** 
 
 Measure of the costs of constructing, executing, and maintaining a test  suite.
