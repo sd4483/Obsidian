@@ -1,11 +1,11 @@
 ```mermaid
 flowchart TB
-	subgraph How software is developed
-		direction TB
-	req[Requirements \n Gathering] --> spec[Specifications] --> impl[Implementation] --> verif[Verification]
-	subgraph Software Testing
-	verif --> val[Validation]
-	end
+	subgraph <strong>How software is developed<strong>
+		direction LR
+		req[Requirements \n Gathering] --> spec[Specifications] --> impl[Implementation] --> verif[Verification]
+		subgraph <mark>Software Testing</mark>
+		verif --> val[Validation]
+		end
 	end
 	
 ```
