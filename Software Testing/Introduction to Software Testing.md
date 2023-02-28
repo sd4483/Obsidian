@@ -89,7 +89,10 @@ The idea is to have a high coverage -> high ability to detect faults in the syst
 
 As mentioned above, coverage is about how good the test suite can check different behaviours of the system. 
 
-Coverage criteria are heuristics (*strategies derived from previous experiences with similar probems* - wikipedia) that can help us ==qualitatively measure the coverage of the test suite==. 
+Coverage criteria are heuristics (*strategies derived from previous experiences with similar probems* - wikipedia) that can help us ==measure the coverage of the test suite==. 
+
+Coverage criteria is usually qualitative - meaning all we can know is whether the criteria is fullfilled or not. Some quantitative coverage criteria exists that can tell us how much criteria is fulfilled (like percentage).
+
 
 **Complexity** 
 
