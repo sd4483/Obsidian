@@ -56,8 +56,8 @@ Program graph for the above program is:
 
 ```mermaid
 flowchart LR
-	id1((1)) --> id3((3)) --> id5((5))
-	id3 --> id7((7)) --> id9((9))
+	id1((1)) ---> id3((3)) ---> id5((5))
+	id3 ---> id7((7)) ---> id9((9))
 ```
 
 The execution path for an input -1 is, $\langle 1,3,5 \rangle$.
