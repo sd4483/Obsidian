@@ -19,5 +19,5 @@ flowchart LR
 	
 	BBT ---> TSB[Test Suite]
 	TSB ---> TCB1[Test Case #1] & TCB2[Test Case #2] & TCB3[Test Case #3]
-	classDef swt fill:#ADD8E6
+	classDef swt fill:#6495ED
 ```
