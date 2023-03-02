@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Testing/Introduction to Software Testing.md",
+                "file": "Software Testing/Paths.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 201.5,
+    "collapsed": true
   },
   "right": {
     "id": "391e7a62d370867d",
@@ -170,10 +171,10 @@
   },
   "active": "f329146d44331229",
   "lastOpenFiles": [
+    "Software Testing/Paths.md",
     "Software Testing/Introduction to Software Testing.md",
     "Software Testing/Coverage Criteria.md",
     "Software Testing/Program Graphs.md",
-    "Software Testing/Paths.md",
     "Software Testing/White Box Testing.md",
     "Software Testing/Labs/Lab 01.md",
     "Software Testing/Begin Here.md",
