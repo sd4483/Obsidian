@@ -57,8 +57,13 @@ Program graph for the above program is:
 ```mermaid
 flowchart LR
 	id1((1)) --> id3((3)) --> id5((5))
-	
+	id3 --> id7((7)) --> id9((9))
 ```
+
+The execution path for an input -1 is, $\langle 1,3,5 \rangle$.
+The execution path for an input 1 is $\langle 1,3,7,9 \rangle$.
+
+Every path in the graph is feasible.
 
 ---
 
@@ -71,5 +76,9 @@ A path in a graph is called feasible if it a ==subpath of an execution path== fo
 >An edge (5,7) is reachable, if the path $\langle 5,7 \rangle$ is feasible i.e. if it is a subpath of the execution path.
 
 
+---
 
+#### Infeasible Paths
+
+If there is a path in the program that no input can reach, then that is considered an infeasibe
 
