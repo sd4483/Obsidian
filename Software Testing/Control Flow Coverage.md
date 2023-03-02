@@ -77,17 +77,28 @@ Used for testing correct loop execution.
 
 **Explanation**: If there is a while loop in the program and we want to achieve $C_i(3)$ coverage, then we need to execute that loop, 0,1,2 and 3 times if possible.
 
-For example, take below program which increments a variable `i` 
+**For example**, take below program which increments a variable `i` for `n` times and prints the increment number after each increment.
 
 ```Java
 public void print_increment(int n)
 {
 	int i = 0;
-	while (i < n)
+	if (n == 0)
 	{
-		i = i + 1;
 		System.out.println(i);
+	}
+	else {
+		while (i < n)
+		{
+			i = i + 1;
+			System.out.println(i);
+		}
 	}
 }
 ```
 
+For the above program, if we want $C_i(3)$ coverage, we need the while loop to execute 0,1,2 and 3 times.
+- Nothing happens when the loop is executed 0 times.
+- When it's executed once, 1 need to be printed.
+- When it's executed two times, 1 and 2 need to be printed.
+- When it's executed three times, 1, 2 and 3
