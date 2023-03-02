@@ -16,7 +16,14 @@ Each ==simple program statement is considered a vertex/node== (numbers) and the 
 
 Branch points like `if-else`, `switch case` statements can lead to multiple edges from a single vertex.
 
-**Outdegree** : Formal definition -
+**Outdegree** : Formal definition - The outdegree of a node v is number of nodes w such that there exists an edge (v,w) in the graph.
+Meaning, if there are three nodes that can be reached from a node, then outdegree of that node is 3. Example, if nodes 5, 7, 9 can be reached from 4, then outdegree for vertex 4 is 3.
+
+**Indegree** : Formal definition - The indegree of a node v is the number of nodes w such that there exists an edge (w,v) in the graph.
+It's the same as outdegree but for incoming edges from multiple nodes to a certain node. Example, if nodes 5, 7, 9 all point to same node, 11, then the indegree of vertex 11 is 3.
+
+#### Chains (Graphs without multiple branches)
+
 
 
 ## Why
