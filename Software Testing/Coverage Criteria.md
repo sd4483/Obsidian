@@ -7,7 +7,7 @@ If every ==reachable node== of program graph exists in the execution path of som
 If every ==reachable edge== of program graph exists in the execution path os some test input, then that test suite provides $C_1$ coverage.
 
 ---
-Example 
+### Example explaining $C_0$ and $C_1$ Coverages 
 
 ```Java
 public static void abs (int x)
@@ -16,6 +16,51 @@ public static void abs (int x)
 	{
 		x = -x;
 	}
-re
+	return x;
 }
 ```
+
+**Program graph for above program:**
+
+```mermaid
+flowchart LR
+	id1((1)) ---> id3((3)) --> id5((5)) ---> id7((7))
+	id3 --> id7
+```
+
+**Test suite with $C_0$ Coverage for above program:**
+<table style="text-align:center; width:100%;">  
+  <tr style="background-color: #dddddd;">  
+    <th style="text-align:center">Test Case</th>  
+    <th style="text-align:center">x</th>    
+    <th style="text-align:center">Expected Output</th>
+  </tr>  
+  <tr>  
+    <td>1</td>  
+    <td>-1</td>  
+    <td>1</td> 
+  </tr>   
+</table>
+
+**Test suite with $C_1$ Coverage for above program:**
+<table style="text-align:center; width:100%;">  
+  <tr style="background-color: #dddddd;">  
+    <th style="text-align:center">Test Case</th>  
+    <th style="text-align:center">x</th>  
+    <th style="text-align:center">Expected Output</th>
+  </tr>  
+  <tr>  
+    <td>1</td>  
+    <td>-1</td>  
+    <td>1</td> 
+    <td>-2</td> 
+  </tr>   
+  <tr>  
+    <td>2</td>  
+    <td>1</td>  
+    <td>1</td> 
+  </tr>   
+</table>
+
+---
+
