@@ -83,6 +83,8 @@ flowchart LR
 ```
 ---
 
+Branch points like `if-else`, `switch case` statements can lead to multiple edges from a single vertex.
+
 #### Outdegree of a graph
 
 **Formal definition**: The outdegree of a node v is number of nodes w such that there exists an edge (v,w) in the graph.
@@ -128,4 +130,24 @@ flowchart LR
 ```mermaid
 flowchart LR
 	id1((1)) --> id2((2)) --> id3((3)) --> id4((4)) --> id1
+```
+
+---
+
+#### D-D Graphs
+
+Chains, branch points and nodes with indegree greater than 1 induce partitions of vertices in the graph, meaning, some vertices could be straigt forward pointing from one to another, some could have loops, multiple branches, etc.
+
+The D-D (Decision to Decision) graph is obtained by collapsing each maximal chain to a single node. 
+
+**For example a chain like this:**
+
+```mermaid
+flowchart LR
+	id1((1)) --> id2((2)) --> id3((3)) --> id4((4))
+```
+can be collapsed to 
+```mermaid
+flowchart LR
+	id1((1,2,3,4))
 ```
