@@ -36,6 +36,30 @@ What cannot be considered as paths:
 2. $\langle 1,3,5 \rangle$
 3. $\langle 1,4 \rangle$
 
+**Take another example:**
+
+```Java
+public int abs(int x)
+{
+	if(x < 0)
+	{
+		return -x;
+	}
+	else
+	{
+		return x;
+	}
+}
+```
+
+Program graph for the above program is:
+
+```mermaid
+flowchart LR
+	id1((1)) --> id3((3)) --> id5((5))
+	
+```
+
 ---
 
 #### Feasible Paths
@@ -44,6 +68,8 @@ A path in a graph is called feasible if it a ==subpath of an execution path== fo
 
 >[!note] Reachability and feasibility
 >A node 5 is reachable if the path $\langle 5 \rangle$ is feasible i.e. if it is a subpath of the execution path.
->An edge (5,7) is feasible, if the path $\langle 5,7$
+>An edge (5,7) is reachable, if the path $\langle 5,7 \rangle$ is feasible i.e. if it is a subpath of the execution path.
+
+
 
 
