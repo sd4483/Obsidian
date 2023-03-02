@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Testing/Coverage Criteria.md",
+                "file": "Software Testing/Control Flow Coverage.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Testing/Coverage Criteria.md",
+                "file": "Software Testing/Control Flow Coverage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Testing/Coverage Criteria.md",
+                "file": "Software Testing/Control Flow Coverage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Testing/Coverage Criteria.md"
+                "file": "Software Testing/Control Flow Coverage.md"
               }
             }
           },
@@ -171,12 +171,12 @@
   },
   "active": "f329146d44331229",
   "lastOpenFiles": [
+    "Software Testing/Labs/Lab 01.md",
+    "Software Testing/Control Flow Coverage.md",
     "Software Testing/Program Graphs.md",
     "Software Testing/Paths.md",
     "Software Testing/Lecture 04.md",
-    "Software Testing/Coverage Criteria.md",
     "Software Testing/Introduction to Software Testing.md",
-    "Software Testing/Labs/Lab 01.md",
     "Software Testing/Labs/Lab 02.md",
     "Software Testing/White Box Testing.md",
     "Software Testing/Begin Here.md",
