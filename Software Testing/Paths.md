@@ -80,5 +80,7 @@ A path in a graph is called feasible if it a ==subpath of an execution path== fo
 
 #### Infeasible Paths
 
-If there is a path in the program that no input can reach, then that is considered an infeasibe
+If there is a path in the program that no input can reach, then that is considered an infeasible path.
+
+
 
