@@ -47,8 +47,9 @@ public int foo(int x, int y)
 
 ```mermaid
 flowchart LR
-	id1((1)) --> id3((3)) --> id5((5)) --> id7((7)) --> id9((9)) --> id10((10))
-	id5 --> id3
+	id1((1)) --> id3((3)) --> id5((5)) --> id4((4))
+	id3 --> id7((7)) --> id9((9)) --> id10((10))
+	id4 --> id3
 	id7 --> id12((12)) --> id14((14)) --> id15((15))
 	id12 --> id17((17)) --> id19((19))
 ```
@@ -56,4 +57,6 @@ The parantheses / opening and closing brackets are not considered as part of the
 
 The return statement is usually the end of the graph unless the graph has a recursive statement.
 
-Loops are represented by adding an arrow back to the statement where the loop started from the last statement of the loop.
+Loops are represented by adding an arrow back to the statement where the loop started from.
+
+In a `for loop`, the arrow is added back from the loop exit condition, in the example above, loop exit condition would be `i < y`, so an arrow is added back from there to the beginning of the loop. In the example, the exit condition is considered as statement 4.
