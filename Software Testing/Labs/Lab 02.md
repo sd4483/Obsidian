@@ -11,7 +11,7 @@ Modified/Condition coverage is C/D + something
 
 ##### Task 01
 
-Conditoin/Decisoin coverage
+Conditoin/Decision coverage
 
 ##### Task 02
 

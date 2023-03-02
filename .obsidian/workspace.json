@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Testing/Labs/Lab 01.md",
+                "file": "Software Testing/Labs/Lab 02.md",
                 "mode": "source",
                 "source": false
               }
@@ -171,13 +171,13 @@
   },
   "active": "f329146d44331229",
   "lastOpenFiles": [
+    "Software Testing/Labs/Lab 02.md",
     "Software Testing/Labs/Lab 01.md",
     "Software Testing/Control Flow Coverage.md",
     "Software Testing/Program Graphs.md",
     "Software Testing/Paths.md",
     "Software Testing/Lecture 04.md",
     "Software Testing/Introduction to Software Testing.md",
-    "Software Testing/Labs/Lab 02.md",
     "Software Testing/White Box Testing.md",
     "Software Testing/Begin Here.md",
     "Software Testing/Lecture 03 (Control Flow Testing).md",

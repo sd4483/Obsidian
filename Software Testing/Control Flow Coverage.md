@@ -75,7 +75,7 @@ Used for testing correct loop execution.
 
 **Formal definition**: A test suite provides $C_i(k)$ coverage if for every loop in P (Program) and for all $j ∈ \{0,...,k\}$, there exists a test case case in the test suite whose execution path visits the loop guard exactly $j + 1$ times, provided that there exists a feasible path that does so. For nested loops, the loop guard must be visited j + 1 times before a loop guard for an enclosing loop is visited.
 
-**Explanation**: If there is a while loop in the program and we want to achieve $C_i(3)$ coverage, then we need to execute that loop, 0,1,2 and 3 times if possible.
+**Explanation**: If there is a while loop in the program and we want to achieve $C_i(3)$ coverage, then we need to execute that loop, 0, 1, 2 and 3 times if possible.
 
 **For example**, take below program which increments a variable `i` for `n` times and prints the increment number after each increment.
 
@@ -106,7 +106,6 @@ For the above program, if we want $C_i(3)$ coverage, we need the while loop to e
 So we can test the program with inputs - 0, 1, 2, 3.
 
 This is a test suite that can provide $C_i(3)$ coverage for the above program.
-
 <table style="text-align:center; width:100%;">  
   <tr style="background-color: #dddddd;">  
     <th style="text-align:center">Test Case</th>  
@@ -134,3 +133,6 @@ This is a test suite that can provide $C_i(3)$ coverage for the above program.
     <td>1, 2, 3</td> 
   </tr>    
 </table>
+
+---
+
