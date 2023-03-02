@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Testing/Condition - Decisoin Coverage.md",
+                "file": "Software Testing/Condition - Decision Coverage.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 201.5,
+    "collapsed": true
   },
   "right": {
     "id": "391e7a62d370867d",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Testing/Condition - Decisoin Coverage.md",
+                "file": "Software Testing/Condition - Decision Coverage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Testing/Condition - Decisoin Coverage.md",
+                "file": "Software Testing/Condition - Decision Coverage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Testing/Condition - Decisoin Coverage.md"
+                "file": "Software Testing/Condition - Decision Coverage.md"
               }
             }
           },
@@ -183,7 +184,7 @@
   "active": "9c2b47025950c078",
   "lastOpenFiles": [
     "Software Testing/Labs/Lab 02.md",
-    "Software Testing/Condition - Decisoin Coverage.md",
+    "Software Testing/Condition - Decision Coverage.md",
     "Software Testing/Control Flow Coverage.md",
     "Software Testing/Labs/Lab 01.md",
     "Software Testing/Program Graphs.md",
