@@ -73,4 +73,21 @@ For $C_1$ though we needed two cos it's about reaching every reachable edge. The
 
 Used for testing correct loop execution.
 
-Formal definition: A test suite provides $C_i(k)$ coverage if for every loop in P and for all $j ∈ \{0,...,k\}$, there exists a test case case in the test suite whose execution path visits the loop guard exactly j + 1 times, provided that there exists a feasible path that does so.
+**Formal definition**: A test suite provides $C_i(k)$ coverage if for every loop in P (Program) and for all $j ∈ \{0,...,k\}$, there exists a test case case in the test suite whose execution path visits the loop guard exactly $j + 1$ times, provided that there exists a feasible path that does so. For nested loops, the loop guard must be visited j + 1 times before a loop guard for an enclosing loop is visited.
+
+**Explanation**: If there is a while loop in the program and we want to achieve $C_i(3)$ coverage, then we need to execute that loop, 0,1,2 and 3 times if possible.
+
+For example, take below program which increments a variable `i` 
+
+```Java
+public void print_increment(int n)
+{
+	int i = 0;
+	while (i < n)
+	{
+		i = i + 1;
+		System.out.println(i);
+	}
+}
+```
+
