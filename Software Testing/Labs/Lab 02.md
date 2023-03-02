@@ -2,7 +2,7 @@
 
 $C_0$ coverage doesn't guarantee $C_1$ coverage but $C_1$ coverage can guarantee $C_0$ coverage.
 
-$C_i(k)$ doesn't guarantee $C_0$
+$C_i(k)$ doesn't guarantee $C_0$ or $C_1$ coverages.
 
 Condition coverage doesn't guarantee decision coverage.
 Decision coverage doesn't guarantee condition coverage.
