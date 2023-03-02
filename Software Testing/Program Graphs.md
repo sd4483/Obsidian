@@ -146,8 +146,18 @@ The D-D (Decision to Decision) graph is obtained by collapsing each maximal chai
 flowchart LR
 	id1((1)) --> id2((2)) --> id3((3)) --> id4((4))
 ```
-can be collapsed to 
+**can be collapsed to:** 
 ```mermaid
 flowchart LR
 	id1((1,2,3,4))
+```
+
+Another example, consider the program graph from the above mentioned Java program, that could be altered to:
+
+```mermaid
+flowchart LR
+	id1((1)) --> id3((3)) --> id45((4,5)) --> id3
+	id3 --> id7((7)) --> id910((9,10))
+	id7 --> id12((12)) --> id1415((14,15))
+	id12 --> id1719((17,19))
 ```
