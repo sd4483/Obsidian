@@ -61,8 +61,11 @@ flowchart LR
   </tr>   
 </table>
 
-The intuition behind the number of test cases is, we write just enough number of test cases that can provide the coverage we need. For C_0, one test case was enough cos the input -1 was able to reach every node in the program graph.
-For C_1 though we needed two cos, the input -1 takes the path $\langle 1,2,3,4 \rangle$ and doesn't cover the path $\langle 1,2,4 \rangle$, but the input 1 does, so we write two test cases for $$
+The intuition behind the number of test cases is, we write just enough number of test cases that can provide the coverage we need. 
+
+For $C_0$, one test case was enough cos the input -1 was able to reach every node in the program graph.
+
+For $C_1$ though we needed two cos it's about reaching every reachable edge. The input -1 takes the path $\langle 1,2,3,4 \rangle$ and doesn't cover the path $\langle 1,2,4 \rangle$, but the input 1 does, so we write two test cases for $C_1$ coverage.
 
 ---
 
