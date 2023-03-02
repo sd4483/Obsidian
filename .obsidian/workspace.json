@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Testing/Graphs.md",
+                "file": "Software Testing/Program Graphs.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Testing/Graphs.md",
+                "file": "Software Testing/Program Graphs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Testing/Graphs.md",
+                "file": "Software Testing/Program Graphs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Testing/Graphs.md"
+                "file": "Software Testing/Program Graphs.md"
               }
             }
           },
@@ -172,7 +172,7 @@
   "active": "a9bee59464aa9f6e",
   "lastOpenFiles": [
     "Software Testing/Introduction to Software Testing.md",
-    "Software Testing/Graphs.md",
+    "Software Testing/Program Graphs.md",
     "Software Testing/Begin Here.md",
     "Software Testing/Lecture 03 (Control Flow Testing).md",
     "Software Testing/Labs/Lab 01.md",
