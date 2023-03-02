@@ -97,8 +97,40 @@ public void print_increment(int n)
 }
 ```
 
-For the above program, if we want $C_i(3)$ coverage, we need the while loop to execute 0,1,2 and 3 times.
+For the above program, if we want $C_i(3)$ coverage, we need the while loop to execute 0, 1, 2 and 3 times.
 - Nothing happens when the loop is executed 0 times.
 - When it's executed once, 1 need to be printed.
 - When it's executed two times, 1 and 2 need to be printed.
-- When it's executed three times, 1, 2 and 3
+- When it's executed three times, 1, 2 and 3 need to be printed.
+
+So we can test the program with inputs - 0, 1, 2, 3.
+
+This is a test suite that can provide $C_i(3)$ coverage for the above program.
+
+<table style="text-align:center; width:100%;">  
+  <tr style="background-color: #dddddd;">  
+    <th style="text-align:center">Test Case</th>  
+    <th style="text-align:center">n</th>  
+    <th style="text-align:center">Expected Output</th>
+  </tr>  
+  <tr>  
+    <td>1</td>  
+    <td>0</td>  
+    <td>0</td> 
+  </tr>   
+  <tr>  
+    <td>2</td>  
+    <td>1</td>  
+    <td>1</td> 
+  </tr> 
+  <tr>  
+    <td>3</td>  
+    <td>2</td>  
+    <td>1, 2</td> 
+  </tr>   
+  <tr>  
+    <td>4</td>  
+    <td>3</td>  
+    <td>1, 2, 3</td> 
+  </tr>    
+</table>
