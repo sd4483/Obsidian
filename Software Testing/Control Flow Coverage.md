@@ -69,8 +69,8 @@ For $C_1$ though we needed two cos it's about reaching every reachable edge. The
 
 ---
 
-### $C_i(K)$ Coverage
+### $C_i(k)$ Coverage
 
 Used for testing correct loop execution.
 
-
+Formal definition: A test suite provides $C_i(k)$ coverage if for every loop in P and for all $j ∈ \{0,...,k\}$, there exists a test case case in the test suite whose execution path visits the loop guard exactly j + 1 times, provided that there exists a feasible path that does so.
