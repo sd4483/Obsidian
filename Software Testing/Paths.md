@@ -27,4 +27,11 @@ Here, some of the paths in the program are:
 4. $\langle 2,4,2,4,2,4,5 \rangle$
 5. $\langle 5 \rangle$
 6. $\langle 2,4,2,4,2,4,... \rangle$ can be considered an infinite path
-7. $\langle \rangle$ even an empty
+7. $\langle \rangle$ even an empty path is a path in the graph
+
+What cannot be considered as paths:
+1. $\langle 1,5 \rangle$
+2. $\langle 1,3,5 \rangle$
+3. $\langle 1,4 \rangle$
+
+

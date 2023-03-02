@@ -12,6 +12,13 @@ Program graphs are just graphs that represent the control flow of a program.
 
 Each ==simple program statement is considered a vertex/node== (numbers) and the connection or ==flow from one statement to another is represented using edges==(arrows).
 
+#### D-D Graphs
+
+Branch points like `if-else`, `switch case` statements can lead to multiple edges from a single vertex.
+
+**Outdegree** : Formal definition -
+
+
 ## Why
 
 ==Any program flow can be represented using a graph==. 

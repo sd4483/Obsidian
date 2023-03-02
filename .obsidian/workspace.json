@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Testing/Paths.md",
+                "file": "Software Testing/Program Graphs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Testing/Paths.md",
+                "file": "Software Testing/Program Graphs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Testing/Paths.md"
+                "file": "Software Testing/Program Graphs.md"
               }
             }
           },
@@ -168,12 +169,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3ca29f9c6f6a7e00",
+  "active": "a9bee59464aa9f6e",
   "lastOpenFiles": [
+    "Software Testing/Paths.md",
     "Software Testing/Labs/Lab 01.md",
     "Software Testing/Begin Here.md",
     "Software Testing/Introduction to Software Testing.md",
-    "Software Testing/Paths.md",
     "Software Testing/Lecture 04.md",
     "Software Testing/Program Graphs.md",
     "Software Testing/Lecture 03 (Control Flow Testing).md",
