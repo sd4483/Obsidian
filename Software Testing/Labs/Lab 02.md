@@ -5,7 +5,7 @@ Decision coverage doesn't guarantee condition coverage
 
 Condition/Decision coverage can guarantee condition coverage + decision coverage
 
-Modified/Condition coverage is C/D + something
+Modified/Condition coverage is C/D + if
 
 ### Exercise 02
 

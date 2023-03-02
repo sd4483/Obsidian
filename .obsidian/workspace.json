@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Testing/Condition - Decision Coverage.md",
+                "file": "Software Testing/Labs/Lab 02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Testing/Condition - Decision Coverage.md",
+                "file": "Software Testing/Labs/Lab 02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Testing/Condition - Decision Coverage.md"
+                "file": "Software Testing/Labs/Lab 02.md"
               }
             }
           },
@@ -181,10 +180,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9c2b47025950c078",
+  "active": "3ca29f9c6f6a7e00",
   "lastOpenFiles": [
-    "Software Testing/Labs/Lab 02.md",
     "Software Testing/Condition - Decision Coverage.md",
+    "Software Testing/Labs/Lab 02.md",
     "Software Testing/Control Flow Coverage.md",
     "Software Testing/Labs/Lab 01.md",
     "Software Testing/Program Graphs.md",
