@@ -17,7 +17,7 @@ Any program flow can be represented using a graph. It will help us visualise the
 
 ## How
 
-Consider a simple program:
+**Consider a simple program:**
 
 ```Java
 public int foo(int x, int y)
@@ -38,15 +38,22 @@ public int foo(int x, int y)
 	}
 	else
 	{
-		retunr 23;
+		return 23;
 	}
 }
 ```
 
-The program graph for the above program:
+**The program graph for the above program:**
 
 ```mermaid
 flowchart LR
 	id1((1)) --> id3((3)) --> id5((5)) --> id7((7)) --> id9((9)) --> id10((10))
-	id7 --> id12((12)) --> id15
+	id5 --> id3
+	id7 --> id12((12)) --> id14((14)) --> id15((15))
+	id12 --> id17((17)) --> id19((19))
 ```
+The parantheses / opening and closing brackets are not considered as part of the graph. 
+
+The return statement is usually the end of the graph unless the graph has a recursive statement.
+
+Loops are represented by adding an arrow back to the statement where the loop started from the last statement of the loop.
