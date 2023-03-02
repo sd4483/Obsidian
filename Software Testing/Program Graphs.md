@@ -29,7 +29,24 @@ public int foo(int x, int y)
 	if (x == y)
 	{
 		y = x + y;
-		return 
+		return baz(x, y, y);
+	}
+	else if (x > y)
+	{
+		x = x - y;
+		return baz(y, x, x);
+	}
+	else
+	{
+		retunr 23;
 	}
 }
+```
+
+The program graph for the above program:
+
+```mermaid
+flowchart LR
+	id1((1)) --> id3((3)) --> id5((5)) --> id7((7)) --> id9((9)) --> id10((10))
+	id7 --> id12((12)) --> id15
 ```
