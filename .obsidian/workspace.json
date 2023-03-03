@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "2b725fdabe022bee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Software Testing/Labs/Lab 03.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9c2b47025950c078",
             "type": "leaf",
             "state": {
@@ -43,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Testing/Labs/Lab 02.md",
+                "file": "Software Testing/Labs/Lab 03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Testing/Labs/Lab 02.md",
+                "file": "Software Testing/Labs/Lab 03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Testing/Labs/Lab 02.md"
+                "file": "Software Testing/Labs/Lab 03.md"
               }
             }
           },
@@ -180,10 +193,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3ca29f9c6f6a7e00",
+  "active": "2b725fdabe022bee",
   "lastOpenFiles": [
-    "Software Testing/Control Flow Coverage.md",
     "Software Testing/Labs/Lab 02.md",
+    "Software Testing/Labs/Lab 03.md",
+    "Software Testing/Control Flow Coverage.md",
     "Software Testing/Condition - Decision Coverage.md",
     "Software Testing/Labs/Lab 01.md",
     "Software Testing/Program Graphs.md",
