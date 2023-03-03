@@ -51,9 +51,82 @@
     <td>T</td>
     <td>F</td>
     <td>T</td>  
+  </tr>       
+</table>
+
+**Unique cause approach**
+<table style="text-align:center; width:100%;">  
+  <tr style="background-color: #dddddd;">  
+    <th style="text-align:center">Test Case</th>  
+    <th style="text-align:center">A</th>  
+    <th style="text-align:center">B</th>
+    <th style="text-align:center">C</th> 
+    <th style="text-align:center">D</th>  
+    <th style="text-align:center">Expected Output</th>
+  </tr>  
+  <tr style="color: red;">  
+    <td>1</td>  
+    <td>T</td>  
+    <td>T</td> 
+    <td>T</td>
+    <td>F</td>
+    <td>F</td>  
+  </tr> 
+  <tr style="color: red;">  
+    <td>2</td>  
+    <td>F</td>  
+    <td>T</td> 
+    <td>T</td>
+    <td>F</td>
+    <td>T</td>  
+  </tr>
+  <tr style="color: red;">  
+    <td>3</td>  
+    <td>F</td>  
+    <td>F</td> 
+    <td>F</td>
+    <td>F</td>
+    <td>F</td>  
+  </tr>
+  <tr style="color: red;">  
+    <td>4</td>  
+    <td>F</td>  
+    <td>F</td> 
+    <td>F</td>
+    <td>F</td>
+    <td>F</td>  
+  </tr>
+  <tr style="color: red;">  
+    <td>5</td>  
+    <td>F</td>  
+    <td>F</td> 
+    <td>F</td>
+    <td>F</td>
+    <td>F</td>  
   </tr>
   <tr style="color: red;">  
     <td>6</td>  
+    <td>F</td>  
+    <td>F</td> 
+    <td>F</td>
+    <td>F</td>
+    <td>F</td>  
+  </tr>      
+</table>
+
+**Masking approach**
+
+<table style="text-align:center; width:100%;">  
+  <tr style="background-color: #dddddd;">  
+    <th style="text-align:center">Test Case</th>  
+    <th style="text-align:center">A</th>  
+    <th style="text-align:center">B</th>
+    <th style="text-align:center">C</th> 
+    <th style="text-align:center">D</th>  
+    <th style="text-align:center">Expected Output</th>
+  </tr>  
+  <tr style="color: red;">  
+    <td>1</td>  
     <td>T</td>  
     <td>F</td> 
     <td>F</td>
@@ -61,7 +134,7 @@
     <td>F</td>  
   </tr> 
   <tr style="color: red;">  
-    <td>7</td>  
+    <td>2</td>  
     <td>F</td>  
     <td>F</td> 
     <td>F</td>

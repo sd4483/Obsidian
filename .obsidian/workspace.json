@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Testing/Labs/Lab 01.md",
+                "file": "Software Testing/Labs/Lab 02.md",
                 "mode": "source",
                 "source": false
               }
@@ -195,8 +195,8 @@
   },
   "active": "2b725fdabe022bee",
   "lastOpenFiles": [
-    "Software Testing/Labs/Lab 01.md",
     "Software Testing/Labs/Lab 02.md",
+    "Software Testing/Labs/Lab 01.md",
     "Software Testing/Labs/Lab 03.md",
     "Software Testing/Control Flow Coverage.md",
     "Software Testing/Condition - Decision Coverage.md",
