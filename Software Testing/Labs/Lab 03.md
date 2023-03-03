@@ -52,14 +52,23 @@
     <td>F</td>
     <td>T</td>  
   </tr>
-  <tr>  
+  <tr style="color: red;">  
     <td>6</td>  
     <td>T</td>  
-    <td>T</td> 
-    <td>T</td>
+    <td>F</td> 
+    <td>F</td>
     <td>F</td>
     <td>F</td>  
-  </tr>     
+  </tr> 
+  <tr style="color: red;">  
+    <td>7</td>  
+    <td>F</td>  
+    <td>F</td> 
+    <td>F</td>
+    <td>F</td>
+    <td>F</td>  
+  </tr>      
 </table>
 
 
+The given test suite doesn't satisfy the MC/DC cos it doesn't satisy the Condition/Decision coverage to begin with.
