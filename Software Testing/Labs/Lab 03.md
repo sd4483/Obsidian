@@ -44,13 +44,13 @@
     <td>F</td>
     <td>F</td>  
   </tr>
-  <tr>  
+  <tr style="color: red;">  
     <td>5</td>  
-    <td>T</td>  
+    <td>F</td>  
     <td>T</td> 
     <td>T</td>
     <td>F</td>
-    <td>F</td>  
+    <td>T</td>  
   </tr>
   <tr>  
     <td>6</td>  
