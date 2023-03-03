@@ -1,6 +1,7 @@
-Models:
-- Categories
+**Models:**
+- Category
 - Users
 - Reactions
 - Comments
-- Posts
+- Post
+
