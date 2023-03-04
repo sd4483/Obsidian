@@ -1,30 +1,38 @@
-**Models:**
-- Category
+### Models
+- **Category**
 	- ID
 	- Name
+	- Info
 	- Parent
-- Tag
+- **Tag**
 	- ID
 	- Name
-- User
+- **User**
 	- ID
 	- Name
 	- E-mail
 	- Password
+	- Bio
 	- Last Login
 	- Registration Date
 	- Date of birth
-- Correctness
-	- Rating
-- Comment
+	- Photo
+- **Correctness**
 	- ID
 	- UserID
-	- Name
+	- Rating
+	- IP
+- **Comment**
+	- ID
+	- UserID
+	- PostID
+	- Title
 	- Content
-- Post
+- **Post**
 	- ID
 	- Title
 	- Content
+	- Featured Image
 	- UserID
 	- Category
 	- Tag
