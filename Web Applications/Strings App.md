@@ -1,15 +1,33 @@
 **Models:**
 - Category
+	- ID
 	- Name
-- Users
+	- Parent
+- Tag
+	- ID
 	- Name
+- User
+	- ID
+	- Name
+	- E-mail
+	- Password
+	- Last Login
+	- Registration Date
+	- Date of birth
 - Correctness
-- Reactions
-	- Emoji
-- Comments
+	- Rating
+- Comment
+	- ID
+	- UserID
 	- Name
 	- Content
 - Post
+	- ID
 	- Title
 	- Content
+	- UserID
+	- Category
+	- Tag
+	- Last Update
+	- Pubished Date
 
