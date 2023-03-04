@@ -28,14 +28,15 @@
 	- PostID
 	- Title
 	- Content
+	- IP
 - **Post**
 	- ID
 	- Title
 	- Content
 	- Featured Image
 	- UserID
-	- Category
-	- Tag
+	- CategoryID
+	- TagID
 	- Last Update
 	- Pubished Date
 
