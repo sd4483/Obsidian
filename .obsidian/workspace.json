@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 201.5,
+    "collapsed": true
   },
   "right": {
     "id": "391e7a62d370867d",
@@ -170,6 +171,7 @@
   },
   "active": "bf1f7860152c3b7f",
   "lastOpenFiles": [
+    "Screenshot 2023-03-05 at 6.04.29 PM.png",
     "Web Applications/Strings App.md",
     "Web Applications/CourseWork 01.md",
     "Screenshot 2023-03-05 at 5.46.27 PM.png",

@@ -1,5 +1,5 @@
 ### Entity Relationship Diagram
-![[Screenshot 2023-03-05 at 5.46.27 PM.png]]
+![[Screenshot 2023-03-05 at 6.04.29 PM.png]]
 
 ### Models
 
@@ -231,18 +231,170 @@ class UserTableSeeder extends Seeder
         $u->email = "user131@gmail.com";
         $u->password = "password1234";
         $u->save();
+		
+		User::factory()->count(10)->create();
     }
 }
 ```
 
 ##### Post
 ```PHP
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\Post;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+
+class PostTableSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        $p = new Post();
+        $p->title = "What is Laravel?";
+        $p->content = "Laravel is a fast, efficient, and flexible PHP framework for building web applications. It is built on PHP.";
+        $p->image_path = 'images/laravel.png';
+        $p->user_id = 1;
+        
+        Post::factory()->count(10)->create();
+    }
+}
 
 ```
 
 ##### Comment
+```PHP
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\Comment;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+
+class CommentTableSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        Comment::factory()->count(100)->create();
+    }
+}
+
+```
 
 ### Factories
 ##### User
+```PHP
+<?php
+
+namespace Database\Factories;
+
+use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Str;
+
+/**
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\User>
+ */
+class UserFactory extends Factory
+{
+    /**
+     * Define the model's default state.
+     *
+     * @return array<string, mixed>
+     */
+    public function definition(): array
+    {
+        return [
+            'name' => fake()->name(),
+            'email' => fake()->unique()->safeEmail(),
+            'email_verified_at' => now(),
+            'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+            'remember_token' => Str::random(10),
+        ];
+    }
+
+    /**
+     * Indicate that the model's email address should be unverified.
+     */
+    public function unverified(): static
+    {
+        return $this->state(fn (array $attributes) => [
+            'email_verified_at' => null,
+        ]);
+    }
+}
+
+```
+
 ##### Post
+```PHP
+<?php
+
+namespace Database\Factories;
+
+use App\Models\Post;
+use App\Models\User;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+/**
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Post>
+ */
+class PostFactory extends Factory
+{
+    /**
+     * Define the model's default state.
+     *
+     * @return array<string, mixed>
+     */
+    public function definition(): array
+    {
+        return [
+            'title' => fake() -> title(),
+            'content' => fake() -> paragraph(),
+            'image_path' => fake() -> image($dir = '/tmp', $width = 640, $height = 480),
+            'user_id' => User::all()->random()->id,
+        ];
+    }
+}
+
+```
+
 ##### Comment
+```PHP
+<?php
+
+namespace Database\Factories;
+
+use App\Models\Post;
+use App\Models\User;
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+/**
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Comment>
+ */
+class CommentFactory extends Factory
+{
+    /**
+     * Define the model's default state.
+     *
+     * @return array<string, mixed>
+     */
+    public function definition(): array
+    {
+        return [
+            'title' => fake() -> title(),
+            'content' => fake() -> text($maxNbChars = 200),
+            'user_id'=> User::all()->random()->id,
+            'post_id' => Post::all()->random()->id,
+        ];
+    }
+}
+
+```
