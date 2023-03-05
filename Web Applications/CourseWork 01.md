@@ -1,9 +1,10 @@
 ### Entity Relationship Diagram
 ![[Screenshot 2023-03-05 at 6.04.29 PM.png]]
 
+---
 ### Models
 
-##### User
+##### User Model
 ```PHP
 <?php
 
@@ -56,7 +57,7 @@ class User extends Authenticatable
 
 ```
 
-##### Post
+##### Post Model
 ```PHP
 <?php
 
@@ -80,7 +81,7 @@ class Post extends Model
 
 ```
 
-##### Comment
+##### Comment Model
 ```PHP
 <?php
 
@@ -100,8 +101,9 @@ class Comment extends Model
 
 ```
 
+---
 ### Migrations
-##### User
+##### User Migration
 ```PHP
 <?php
 
@@ -138,7 +140,7 @@ return new class extends Migration
 
 ```
 
-##### Post
+##### Post Migration
 ```PHP
 <?php
 
@@ -173,7 +175,7 @@ return new class extends Migration
 };
 
 ```
-##### Comment
+##### Comment Migration
 ```PHP
 <?php
 
@@ -209,6 +211,7 @@ return new class extends Migration
 
 ```
 
+---
 ### Seeders
 ##### User
 ```PHP
@@ -295,6 +298,7 @@ class CommentTableSeeder extends Seeder
 
 ```
 
+---
 ### Factories
 ##### User
 ```PHP
