@@ -5,6 +5,9 @@
 ### Models
 
 ##### User Model
+I used Laravel Breeze for implementing all the authentication features, including login, registration, password reset, email verification, and password confirmation.
+
+It created the User model automatically. Here is the code for that.
 ```PHP
 <?php
 
