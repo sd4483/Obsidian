@@ -58,6 +58,14 @@ erDiagram
 		longText content
 		string image_path
 		date published_date
+		int category_id FK
+		int tag_id
+		int correctness_id
+		int user_id
+	}
+	POST-CATEGORY {
+		int post_id PK, FK
+		int catego
 	}
 	TAG {
 		int ID PK
