@@ -46,29 +46,36 @@ Entity Relationship Diagram
 ```mermaid
 erDiagram
 	CATEGORY {
+		int ID PK
 		string name
 		string info
 		string parent
+		int post_id FK
 	}
 	POSTS {
+		int ID PK
 		string title
 		longText content
 		string image_path
 		date published_date
 	}
 	TAG {
+		int ID PK
 		string name
 	}
 	COMMENTS {
+		int ID PK
 		string title
 		longText content
 		ipAddress ip_address
 	}
 	CORRECTNESS {
+		int ID PK
 		int rating
 		ipAddress ip_address
 	}
 	USER {
+		int ID PK
 		string name
 		string password
 		string email
@@ -76,5 +83,7 @@ erDiagram
 	}
 	CATEGORY }|--o{ POSTS : has
 	TAG }o--o{ POSTS : has
-	COMMENTS }o--o{ POSTS : has
+	COMMENTS }o--|| POSTS : has
+	CORRECTNESS }o--|| POSTS : has
+	USER ||--o{ POSTS : has
 ```
