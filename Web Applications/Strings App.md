@@ -120,7 +120,6 @@ erDiagram
 		longText content
 		string image_path
 		date published_date
-		int correctness_id FK
 		int user_id FK
 	}
 	POST-CATEGORY {
