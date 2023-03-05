@@ -14,12 +14,25 @@
               "type": "markdown",
               "state": {
                 "file": "Web Applications/Strings App.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bf1f7860152c3b7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Applications/CourseWork 01.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5,
-    "collapsed": true
+    "width": 201.5
   },
   "right": {
     "id": "391e7a62d370867d",
@@ -86,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Web Applications/CourseWork 01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Web Applications/CourseWork 01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Web Applications/CourseWork 01.md"
+              }
             }
           },
           {
@@ -152,9 +168,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "870c4fb62a4cc2b7",
+  "active": "bf1f7860152c3b7f",
   "lastOpenFiles": [
+    "Screenshot 2023-03-05 at 5.46.27 PM.png",
     "Web Applications/Strings App.md",
+    "Web Applications/CourseWork 01.md",
     "Software Testing/White Box Testing.md",
     "Software Testing/Labs/Lab 02.md",
     "Web Applications",
