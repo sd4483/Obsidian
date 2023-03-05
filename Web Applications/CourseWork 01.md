@@ -283,6 +283,12 @@ class CommentTableSeeder extends Seeder
      */
     public function run(): void
     {
+        $c = new Comment();
+        $c->title = "Nice post";
+        $c->content = "Thank you for posting!";
+        $c->user_id = 9;
+        $c->post_id = 1;
+        
         Comment::factory()->count(100)->create();
     }
 }
