@@ -103,3 +103,48 @@ erDiagram
 	CORRECTNESS }o--|| POSTS : has
 	USER ||--o{ POSTS : has
 ```
+
+Entity Relationship Diagram (Simpler)
+
+```mermaid
+erDiagram
+	CATEGORY {
+		int ID PK
+		string name
+		string info
+		string parent
+	}
+	POSTS {
+		int ID PK
+		string title
+		longText content
+		string image_path
+		date published_date
+		int correctness_id FK
+		int user_id FK
+	}
+	POST-CATEGORY {
+		int post_id
+		int category_id
+	}
+	COMMENTS {
+		int ID PK
+		string title
+		longText content
+		ipAddress ip_address
+		int post_id FK
+		int user_id FK
+	}
+	USER {
+		int ID PK
+		string name
+		string password
+		string email
+		longText bio
+		int post_id FK
+	}
+	CATEGORY ||--o{ POST-CATEGORY : has
+	POSTS ||--o{ POST-CATEGORY : has
+	COMMENTS }o--|| POSTS : has
+	USER ||--o{ POSTS : has
+```
