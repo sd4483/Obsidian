@@ -61,8 +61,20 @@ erDiagram
 	}
 	COMMENTS {
 		string title
-		string content
+		longText content
+		ipAddress ip_address
 	}
-	CORRECTNESS
-	USER
+	CORRECTNESS {
+		int rating
+		ipAddress ip_address
+	}
+	USER {
+		string name
+		string password
+		string email
+		longText bio
+	}
+	CATEGORY }|--o{ POSTS : has
+	TAG }o--o{ POSTS : has
+	COMMENTS }o--o{ POSTS : has
 ```
