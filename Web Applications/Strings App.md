@@ -78,12 +78,14 @@ erDiagram
 		longText content
 		ipAddress ip_address
 		int post_id FK
+		int user_id FK
 	}
 	CORRECTNESS {
 		int ID PK
 		int rating
 		ipAddress ip_address
 		int post_id FK
+		int user_id FK
 	}
 	USER {
 		int ID PK
