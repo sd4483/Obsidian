@@ -40,3 +40,29 @@
 	- Last Update
 	- Pubished Date
 
+
+Entity Relationship Diagram
+
+```mermaid
+erDiagram
+	CATEGORY {
+		string name
+		string info
+		string parent
+	}
+	POSTS {
+		string title
+		longText content
+		string image_path
+		date published_date
+	}
+	TAG {
+		string name
+	}
+	COMMENTS {
+		string title
+		string content
+	}
+	CORRECTNESS
+	USER
+```
