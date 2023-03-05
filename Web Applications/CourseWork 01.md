@@ -211,8 +211,35 @@ return new class extends Migration
 
 ### Seeders
 ##### User
+```PHP
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+
+class UserTableSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        $u = new User();
+        $u->name = "user131";
+        $u->email = "user131@gmail.com";
+        $u->password = "password1234";
+        $u->save();
+    }
+}
+```
 
 ##### Post
+```PHP
+
+```
+
 ##### Comment
 
 ### Factories
