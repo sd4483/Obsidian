@@ -213,7 +213,7 @@ return new class extends Migration
 
 ---
 ### Seeders
-##### User
+##### User Seeder
 ```PHP
 <?php
 
@@ -240,7 +240,7 @@ class UserTableSeeder extends Seeder
 }
 ```
 
-##### Post
+##### Post Seeder
 ```PHP
 <?php
 
@@ -269,7 +269,7 @@ class PostTableSeeder extends Seeder
 
 ```
 
-##### Comment
+##### Comment Seeder
 ```PHP
 <?php
 
@@ -300,7 +300,7 @@ class CommentTableSeeder extends Seeder
 
 ---
 ### Factories
-##### User
+##### User Factory
 ```PHP
 <?php
 
@@ -343,7 +343,7 @@ class UserFactory extends Factory
 
 ```
 
-##### Post
+##### Post Factory
 ```PHP
 <?php
 
@@ -376,7 +376,7 @@ class PostFactory extends Factory
 
 ```
 
-##### Comment
+##### Comment Factory
 ```PHP
 <?php
 
