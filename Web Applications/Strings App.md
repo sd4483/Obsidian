@@ -50,7 +50,6 @@ erDiagram
 		string name
 		string info
 		string parent
-		int post_id FK
 	}
 	POSTS {
 		int ID PK
@@ -58,29 +57,33 @@ erDiagram
 		longText content
 		string image_path
 		date published_date
-		int category_id FK
-		int tag_id
-		int correctness_id
-		int user_id
+		int correctness_id FK
+		int user_id FK
 	}
 	POST-CATEGORY {
 		int post_id PK, FK
-		int catego
+		int category_id PK, FK
 	}
 	TAG {
 		int ID PK
 		string name
+	}
+	POST-TAG {
+		int post_id PK, FK
+		int tag_id PK, FK
 	}
 	COMMENTS {
 		int ID PK
 		string title
 		longText content
 		ipAddress ip_address
+		int post_id FK
 	}
 	CORRECTNESS {
 		int ID PK
 		int rating
 		ipAddress ip_address
+		int post_id FK
 	}
 	USER {
 		int ID PK
@@ -88,9 +91,12 @@ erDiagram
 		string password
 		string email
 		longText bio
+		int post_id FK
 	}
-	CATEGORY }|--o{ POSTS : has
-	TAG }o--o{ POSTS : has
+	CATEGORY ||--o{ POST-CATEGORY : has
+	POST ||--o{ POST-CATEGORY : has
+	TAG ||--o{ POST-TAG : has
+	POST ||--o{ POST-TAG : has
 	COMMENTS }o--|| POSTS : has
 	CORRECTNESS }o--|| POSTS : has
 	USER ||--o{ POSTS : has
