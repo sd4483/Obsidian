@@ -86,7 +86,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Applications/Strings App.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Applications/Strings App.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +123,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Web Applications/Strings App.md"
-              }
+              "state": {}
             }
           },
           {
@@ -139,7 +135,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -156,10 +152,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "848dfaeda74b81ff",
+  "active": "870c4fb62a4cc2b7",
   "lastOpenFiles": [
-    "Software Testing/White Box Testing.md",
     "Web Applications/Strings App.md",
+    "Software Testing/White Box Testing.md",
     "Software Testing/Labs/Lab 02.md",
     "Web Applications",
     "Software Testing/Labs/Lab 03.md",
