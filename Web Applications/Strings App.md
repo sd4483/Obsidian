@@ -61,16 +61,16 @@ erDiagram
 		int user_id FK
 	}
 	POST-CATEGORY {
-		int post_id PK, FK
-		int category_id PK, FK
+		int post_id
+		int category_id
 	}
 	TAG {
 		int ID PK
 		string name
 	}
 	POST-TAG {
-		int post_id PK, FK
-		int tag_id PK, FK
+		int post_id
+		int tag_id
 	}
 	COMMENTS {
 		int ID PK
@@ -94,9 +94,9 @@ erDiagram
 		int post_id FK
 	}
 	CATEGORY ||--o{ POST-CATEGORY : has
-	POST ||--o{ POST-CATEGORY : has
+	POSTS ||--o{ POST-CATEGORY : has
 	TAG ||--o{ POST-TAG : has
-	POST ||--o{ POST-TAG : has
+	POSTS ||--o{ POST-TAG : has
 	COMMENTS }o--|| POSTS : has
 	CORRECTNESS }o--|| POSTS : has
 	USER ||--o{ POSTS : has
