@@ -5,9 +5,9 @@
 ### Models
 
 ##### User Model
-I used Laravel Breeze for implementing all the authentication features, including login, registration, password reset, email verification, and password confirmation.
+I used [Laravel Breeze](https://laravel.com/docs/10.x/starter-kits#laravel-breeze) for implementing all the authentication features, including login, registration, password reset, email verification, and password confirmation.
 
-It created the User model automatically. Here is the code for that.
+It created the User model automatically. The only thing I added is the relationship function to posts. 
 ```PHP
 <?php
 
@@ -107,6 +107,9 @@ class Comment extends Model
 ---
 ### Migrations
 ##### User Migration
+As I mentioned above, I used Laravel Breeze for implementing all the authentication features.
+
+Laravel Breeze created this migration file along with two other migration files for personal access token and password reset. I just included the User migration file as I didn't see the other two as relevant for this coursework.
 ```PHP
 <?php
 
