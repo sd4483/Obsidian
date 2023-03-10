@@ -293,9 +293,9 @@ int swap
   </tr>  
   <tr>  
     <td>swapped</td>  
-    <td></td>  
-    <td>items</td> 
-  </tr>   
+    <td>2, 4, 12</td>  
+    <td>3</td> 
+  </tr> 
   <tr>  
     <td>i</td>  
     <td>1</td>  
@@ -303,9 +303,12 @@ int swap
   </tr> 
   <tr> 
 	  <td>items</td>
+	  <td>10, 11</td>
+	  <td>6, 8, 9</td>
   </tr>
   <tr>
 	<td>swap</td>
+	<td>9</td>
   </tr>
  
 </table>
