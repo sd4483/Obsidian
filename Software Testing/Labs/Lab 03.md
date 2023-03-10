@@ -285,6 +285,7 @@ int swap
 
 ##### Task 02
 
+![[Screenshot 2023-03-10 at 3.13.52 PM.png]]
 <table style="text-align:center; width:100%;">  
   <tr style="background-color: #dddddd;">  
     <th style="text-align:center">Variable</th>  
@@ -298,8 +299,8 @@ int swap
   </tr> 
   <tr>  
     <td>i</td>  
-    <td>1</td>  
-    <td>1</td> 
+    <td>5</td>  
+    <td>6, 7, 8, 9, 10, 11</td> 
   </tr> 
   <tr> 
 	  <td>items</td>
@@ -309,6 +310,10 @@ int swap
   <tr>
 	<td>swap</td>
 	<td>9</td>
+	<td>11</td>
   </tr>
  
 </table>
+
+##### Task 03
+
