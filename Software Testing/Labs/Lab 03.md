@@ -317,3 +317,23 @@ int swap
 
 ##### Task 03
 
+<table style="text-align:center; width:100%;">  
+  <tr style="background-color: #dddddd;">  
+    <th style="text-align:center">Test Case</th>  
+    <th style="text-align:center">item</th>  
+    <th style="text-align:center">y</th>  
+    <th style="text-align:center">Expected Output</th>
+  </tr>  
+  <tr>  
+    <td>1</td>  
+    <td>-1</td>  
+    <td>-1</td> 
+    <td>-2</td> 
+  </tr>   
+  <tr>  
+    <td>2</td>  
+    <td>1</td>  
+    <td>1</td> 
+    <td>2</td> 
+  </tr>   
+</table>
