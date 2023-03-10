@@ -276,6 +276,8 @@ The given test suite doesn't satisfy the MC/DC cos it doesn't satisy the Conditi
 ```Java
 boolean swapped
 
+int i
+
 int[] items
 
 int swap
@@ -290,13 +292,20 @@ int swap
     <th style="text-align:center">Used At</th>
   </tr>  
   <tr>  
-    <td>1</td>  
-    <td>-1</td>  
-    <td>-1</td> 
+    <td>swapped</td>  
+    <td></td>  
+    <td>items</td> 
   </tr>   
   <tr>  
-    <td>2</td>  
+    <td>i</td>  
     <td>1</td>  
     <td>1</td> 
-  </tr>   
+  </tr> 
+  <tr> 
+	  <td>items</td>
+  </tr>
+  <tr>
+	<td>swap</td>
+  </tr>
+ 
 </table>
