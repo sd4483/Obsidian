@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Testing/Courseworks/Coursework 1.md",
+                "file": "Software Testing/Labs/Lab 01.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5,
-    "collapsed": true
+    "width": 201.5
   },
   "right": {
     "id": "391e7a62d370867d",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Testing/Courseworks/Coursework 1.md",
+                "file": "Software Testing/Labs/Lab 01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Testing/Courseworks/Coursework 1.md",
+                "file": "Software Testing/Labs/Lab 01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Testing/Courseworks/Coursework 1.md"
+                "file": "Software Testing/Labs/Lab 01.md"
               }
             }
           },
@@ -158,8 +157,8 @@
   },
   "active": "53a209f93f29e613",
   "lastOpenFiles": [
-    "🎛️ Ground Control/Coursework Dates Tracker.md",
     "Software Testing/Courseworks/Coursework 1.md",
+    "🎛️ Ground Control/Coursework Dates Tracker.md",
     "Software Testing/Courseworks",
     "Web Applications/CourseWork 01.md",
     "Everything Else/Questions.md",
