@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "39cb9b2cab04d641",
+        "id": "94e0a40361e5972e",
         "type": "tabs",
         "children": [
           {
-            "id": "53a209f93f29e613",
+            "id": "70b502ef77ede85f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Testing/Courseworks/Coursework 1.md",
+                "file": "Software Testing/Resources.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Testing/Courseworks/Coursework 1.md",
+                "file": "Software Testing/Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Testing/Courseworks/Coursework 1.md",
+                "file": "Software Testing/Resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Testing/Courseworks/Coursework 1.md"
+                "file": "Software Testing/Resources.md"
               }
             }
           },
@@ -155,10 +155,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "53a209f93f29e613",
+  "active": "70b502ef77ede85f",
   "lastOpenFiles": [
-    "Software Testing/Labs/Lab 01.md",
+    "Software Testing/04. Condition - Decision Coverage.md",
+    "Software Testing/Resources.md",
+    "Software Testing/Untitled",
+    "Software Testing/05. White Box Testing.md",
+    "Software Testing/Lecture 03 (Control Flow Testing).md",
+    "Software Testing/03. Control Flow Coverage.md",
+    "Software Testing/02.1. Paths.md",
+    "Software Testing/02. Program Graphs.md",
+    "Software Testing/Lecture 04.md",
+    "Software Testing/00. Begin Here.md",
+    "Software Testing/01. Introduction to Software Testing.md",
     "Software Testing/Courseworks/Coursework 1.md",
+    "Software Testing/Labs/Lab 01.md",
     "🎛️ Ground Control/Coursework Dates Tracker.md",
     "Software Testing/Courseworks",
     "Web Applications/CourseWork 01.md",
@@ -172,29 +183,18 @@
     "Software Testing/Labs/Lab 02.md",
     "Web Applications/Strings App.md",
     "Attachments/Screenshot 2023-03-05 at 6.04.29 PM.png",
-    "Software Testing/White Box Testing.md",
     "Web Applications",
-    "Software Testing/Control Flow Coverage.md",
-    "Software Testing/Condition - Decision Coverage.md",
-    "Software Testing/Program Graphs.md",
-    "Software Testing/Paths.md",
-    "Software Testing/Lecture 04.md",
-    "Software Testing/Introduction to Software Testing.md",
-    "Software Testing/Begin Here.md",
-    "Software Testing/Lecture 03 (Control Flow Testing).md",
     "_notion-like-tables/table-id-SL4vdW.md",
     "_notion-like-tables",
     "Scripts/my_script.js",
     "Scripts/my_script.rtf",
     "Scripts/untitled folder",
     "Scripts",
-    "untitled folder",
     "Blockchain/Brownbag talk by Warner - Slides Notes.md",
     "Exam Prep/Embedded Systems.md",
     "Exam Prep/Operating Systems.md",
     "Optimisation Module/Strengths.md",
     "Optimisation Module/Course Work.md",
-    "Optimisation Module/Paper Review.md",
-    "conflict-files-obsidian-git.md"
+    "Optimisation Module/Paper Review.md"
   ]
 }
