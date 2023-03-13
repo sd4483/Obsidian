@@ -20,3 +20,4 @@ flowchart LR
 
 ##### Task 02
 
+The program doesn't have any unreachable nodes or infeasible edges. There is atleast one input for which e

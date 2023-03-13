@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "94e0a40361e5972e",
+        "id": "ccf96f0d37f21352",
         "type": "tabs",
         "children": [
           {
-            "id": "70b502ef77ede85f",
+            "id": "2c5b28c5610d575c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Applications/CourseWork 01.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ca2280649a5bdd37",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web Applications/Coursework 2.md",
+                "file": "Software Testing/Courseworks/Coursework 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 201.5,
+    "collapsed": true
   },
   "right": {
     "id": "391e7a62d370867d",
@@ -98,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Applications/Coursework 2.md",
+                "file": "Software Testing/Courseworks/Coursework 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Applications/Coursework 2.md",
+                "file": "Software Testing/Courseworks/Coursework 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Applications/Coursework 2.md"
+                "file": "Software Testing/Courseworks/Coursework 1.md"
               }
             }
           },
@@ -168,15 +156,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ca2280649a5bdd37",
+  "active": "870c4fb62a4cc2b7",
   "lastOpenFiles": [
+    "Web Applications/CourseWork 01.md",
+    "Web Applications/Coursework 2.md",
     "Attachments/ASH MOSELEY.png",
     "Attachments/ILLIA LOBACHEVSKYY .png",
     "Attachments/LORENZO LABARTA ARILLA .png",
     "Attachments/AB NATARAJ.png",
     "Attachments/ABHINU BALACHANDRAN .png",
-    "Web Applications/CourseWork 01.md",
-    "Web Applications/Coursework 2.md",
     "Web Applications/Coursework 02 - 2232843.md",
     "Attachments/Screenshot 2023-03-13 at 1.25.30 AM.png",
     "Attachments/Screenshot 2023-03-13 at 1.25.17 AM.png",
@@ -202,7 +190,6 @@
     "Attachments",
     "🎛️ Ground Control",
     "Everything Else/Enhancing Human Collaborations and Interactions with Data and Intelligence-Driven Systems, CDT Integrated MSc and PhD.md",
-    "Attachments/Screenshot 2023-03-05 at 5.46.27 PM.png",
     "Software Testing/Labs/Lab 03.md",
     "Software Testing/Labs/Lab 02.md",
     "Web Applications/Strings App.md",
