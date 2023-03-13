@@ -49,7 +49,7 @@ Minimal test suite that provides $C_1$ coverage.
 </table>
 
 ##### Task 04
-Minimal test suite that provides $C_i(2)$ coverage. The while loop executes 0, 1, 2 times. However the nodes
+Minimal test suite that provides $C_i(2)$ coverage. The while loop executes 0, 1, 2 times. However the nodes 8 and 9 of the program are never executed for any of the following test cases, thus it doesn't achieve $C_0$ coverage.
 <table style="text-align:center; width:100%;">  
   <tr style="background-color: #dddddd;">  
     <th style="text-align:center">Test Case</th>  
