@@ -23,4 +23,32 @@ flowchart LR
 The program doesn't have any unreachable nodes or infeasible edges. There is atleast one input for which each edge and node of the program is reachable.
 
 ##### Task 03
+<table style="text-align:center; width:100%;">  
+  <tr style="background-color: #dddddd;">  
+    <th style="text-align:center">Test Case</th>  
+    <th style="text-align:center">Array []xs</th>  
+    <th style="text-align:center">Find x</th>  
+    <th style="text-align:center">Expected Output</th>
+    <th style="text-align:center">Observed Output</th>
+  </tr>  
+  <tr style="text-align:center; width:100%;">  
+    <td>1</td>  
+    <td>{1,2,3,5,6}</td>  
+    <td>5</td> 
+    <td>3</td>
+    <td>3</td>  
+  </tr>   
+  <tr style="text-align:center; width:100%;">  
+    <td>2</td>  
+    <td>{1,2,3,5,6}</td>  
+    <td>2</td> 
+    <td>1</td>
+    <td>1</td> 
+  </tr>   
+</table>
+
+
+
+{1,2,3,5,6} 5 3
+{1,2,3,5,6} 2 1
 
