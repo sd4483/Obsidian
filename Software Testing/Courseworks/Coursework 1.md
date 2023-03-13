@@ -48,12 +48,6 @@ Minimal test suite that provides $C_1$ coverage.
   </tr>   
 </table>
 
-
-
-{1,2,3,5,6} 5 3
-{1,2,3,5,6} 2 1
-
-
 ##### Task 04
 Minimal test suite that provides $C_i(2)$ coverage. The while loop executes 0, 1, 2 times.
 <table style="text-align:center; width:100%;">  
@@ -72,16 +66,23 @@ Minimal test suite that provides $C_i(2)$ coverage. The while loop executes 0, 1
     <td>-1</td>  
   </tr>
   <tr style="text-align:center; width:100%;">  
+    <td>2</td>  
+    <td>{1,2,3}</td>  
+    <td>2</td> 
+    <td>1</td>
+    <td>1</td>  
+  </tr>
+  <tr style="text-align:center; width:100%;">  
     <td>3</td>  
-    <td>{1,2,3,5,6,7,8}</td>  
-    <td>7</td> 
-    <td>5</td>
-    <td>5</td>  
+    <td>{1,2,3,5,6,7}</td>  
+    <td>5</td> 
+    <td>3</td>
+    <td>3</td>  
   </tr>    
 </table>
-{1,2,3,5,6,7,8} 7 5
 
-Task 05
+##### Task 05
+{1,2,3}
 
 {1} 1 -1
 
