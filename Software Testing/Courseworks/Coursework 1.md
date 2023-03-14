@@ -101,6 +101,8 @@ The loop executes infintely for test inputs of x that don't exist in the array i
 
 ##### Task 07
 
+Considering the test suite written in 
+
 ##### Task 08
 
 In the first test case, the input for $x$ doesn't exist in the array input, and therefore the expected output is -1 but the observed output is 'Infinite loop'.
