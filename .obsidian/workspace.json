@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Testing/02. Program Graphs.md",
+                "file": "Software Testing/Courseworks/Coursework 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 201.5
+    "width": 201.5,
+    "collapsed": true
   },
   "right": {
     "id": "391e7a62d370867d",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Testing/02. Program Graphs.md",
+                "file": "Software Testing/Courseworks/Coursework 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Testing/02. Program Graphs.md",
+                "file": "Software Testing/Courseworks/Coursework 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Testing/02. Program Graphs.md"
+                "file": "Software Testing/Courseworks/Coursework 1.md"
               }
             }
           },
@@ -157,6 +158,7 @@
   },
   "active": "2c5b28c5610d575c",
   "lastOpenFiles": [
+    "Software Testing/02. Program Graphs.md",
     "Software Testing/01. Introduction to Software Testing.md",
     "Software Testing/00. Begin Here.md",
     "Software Testing/Courseworks/Coursework 1.md",
@@ -182,7 +184,6 @@
     "Software Testing/05. White Box Testing.md",
     "Software Testing/Lecture 03 (Control Flow Testing).md",
     "Software Testing/02.1. Paths.md",
-    "Software Testing/02. Program Graphs.md",
     "Software Testing/Lecture 04.md",
     "🎛️ Ground Control/Coursework Dates Tracker.md",
     "Software Testing/Courseworks",
