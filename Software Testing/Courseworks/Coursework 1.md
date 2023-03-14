@@ -84,5 +84,38 @@ Minimal test suite that provides $C_i(2)$ coverage. The while loop executes 0, 1
 ##### Task 05
 
 ##### Task 06
-The loop executes infintely for test inputs of x that don't exist in the array inputs of xs. For example, take {1,2,3,5,6,7} as xs array input and for x take 4 as input. The expected behaviour og the program is that the loop should execute 2 times and return -1 as the output. But the program goes into a continous loop. This is something that should have been caught in the $C_i(2) $
 
+The loop executes infintely for test inputs of x that don't exist in the array inputs of xs. For example, take {1,2,3,5,6,7} as xs array input and for x take 4 as input. The expected behaviour og the program is that the loop should execute 2 times and return -1 as the output. But the program goes into a continous loop. This is something that should have been caught in the $C_i(2)$ test suite coverage but wasn't. 
+
+##### Task 08
+In the first test case, the input for $x$ doesn't exist in the array input, and therefore the expected outp
+<table style="text-align:center; width:100%;">  
+  <tr style="background-color: #dddddd;">  
+    <th style="text-align:center">Test Case</th>  
+    <th style="text-align:center">Array []xs</th>  
+    <th style="text-align:center">Find x</th>  
+    <th style="text-align:center">Expected Output</th>
+    <th style="text-align:center">Observed Output</th>
+  </tr>  
+  <tr style="text-align:center; width:100%;">  
+    <td>1</td>  
+    <td>{1,3,5}</td>  
+    <td>4</td> 
+    <td>-1</td>
+    <td>Infinite loop</td>  
+  </tr>
+  <tr style="text-align:center; width:100%;">  
+    <td>2</td>  
+    <td>{1,2,3,4}</td>  
+    <td>3</td> 
+    <td>2</td>
+    <td>Infinite loop</td>  
+  </tr>
+  <tr style="text-align:center; width:100%;">  
+    <td>3</td>  
+    <td>{1,2,5}</td>  
+    <td>5</td> 
+    <td>2</td>
+    <td>Infinite loop</td>  
+  </tr>    
+</table>
