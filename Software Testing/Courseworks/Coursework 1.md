@@ -8,7 +8,7 @@ Pragun Joshi -
 
 ### Problem 01
 
-##### Task 01
+##### Question 01
 ```mermaid
 flowchart LR
 	id1((1)) --> id2((2)) --> id3((3)) --> id4((4)) --> id14((14))
@@ -18,7 +18,7 @@ flowchart LR
 	
 ```
 
-##### Task 02
+##### Question 02
 
 The program doesn't have any unreachable nodes or infeasible edges. There is atleast one input for which, each edge and node of the program is reachable. 
 
@@ -34,7 +34,7 @@ The above three examples gives the insight that all the edges of the program are
 
 **Observation:** The program as an infeasible path $\langle 1,2,3,4,5,6,8,10,11,4,14 \rangle$. When given an input that's higher than any number in the input list and that doesn't exist in the input list should take that path, but the program ends in an infinite loop. 
 
-##### Task 03
+##### Question 03
 Minimal test suite that provides $C_1$ coverage but doesn't provide $C_i(2)$ coverage.
 <table style="text-align:center; width:100%;">  
   <tr style="background-color: #dddddd;">  
@@ -94,7 +94,7 @@ Minimal test suite that provides $C_i(2)$ coverage. The while loop executes 0, 1
 </table>
 
 ##### Task 05
-Minimal test suite that provides $C_1$ coverage as well as $C_i(2)$ coverage. The test cases 
+Minimal test suite that provides $C_1$ coverage as well as $C_i(2)$ coverage. The test suite contains test cases that reach all edges of the program and also cases that provide $C_i(2)$ coverage by executing the while loop 0,1,2 times. 
 <table style="text-align:center; width:100%;">  
   <tr style="background-color: #dddddd;">  
     <th style="text-align:center">Test Case</th>  
@@ -119,7 +119,14 @@ Minimal test suite that provides $C_1$ coverage as well as $C_i(2)$ coverage. Th
   </tr>
   <tr style="text-align:center; width:100%;">  
     <td>3</td>  
-    <td>{1,2,3,5,6,7}</td>  
+    <td>{2,3,4}</td>  
+    <td>2</td> 
+    <td>0</td>
+    <td>0</td>  
+  </tr>
+  <tr style="text-align:center; width:100%;">  
+    <td>4</td>  
+    <td>{2,3,4,5,6}</td>  
     <td>5</td> 
     <td>3</td>
     <td>3</td>  
