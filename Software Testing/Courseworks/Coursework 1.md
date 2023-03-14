@@ -22,7 +22,7 @@ flowchart LR
 
 The program seems to have one infeasdoesn't have any unreachable nodes or infeasible edges. There is atleast one input for which, each edge and node of the program is reachable. 
 
-For example, if we give the inputs $[1,2,3,5,6,7,8,9,10]$ and $7$, the nodes $1,2,3,4,5,6,7,8,9,10,11$ are reachable. If we give the inputs $[2,3,5,6]$ and $1$, the nodes $1,2,3,4,5,6,8,9,14$ are reachable. These two examples gives the insight that all the edges of the program are reachable as well.
+For example, if we give the inputs $[1,2,3,5,6,7,8,9,10]$ and $7$, the nodes $1,2,3,4,5,6,7,8,9,10,11$ are reachable. If we give the inputs $[2,3,5,6]$ and $1$, the nodes $1,2,3,4,5,6,8,9,14$ are reachable. And finally, if we give the inputs $[2]$ and 1, the nodes $1,2,3,4,14$ are reachableThese two examples gives the insight that all the edges of the program are reachable as well.
 
 [more explicit this input this execution path] 
 
