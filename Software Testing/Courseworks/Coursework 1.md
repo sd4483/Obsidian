@@ -94,7 +94,7 @@ Minimal test suite that provides $C_i(2)$ coverage. The while loop executes 0, 1
 </table>
 
 ##### Task 05
-Minimal test suite that prov
+Minimal test suite that provides $C_1$ coverage as well as $C_i(2)$ coverage. The test cases 
 <table style="text-align:center; width:100%;">  
   <tr style="background-color: #dddddd;">  
     <th style="text-align:center">Test Case</th>  
