@@ -82,7 +82,7 @@ Minimal test suite that provides $C_i(2)$ coverage. The while loop executes 0, 1
 </table>
 
 ##### Task 05
-{1,2,3}
 
-{1} 1 -1
+##### Task 06
+The loop executes infintely for test inputs of x that don't exist in the array inputs of xs. For example, take {1,2,3,5,6,7} as xs array input and for x take 4 as input. The expected behaviour og the program is that the loop should execute 2 times and return -1 as the output. But the program goes into a continous loop. This is something that should have been caught in the $C_i(2) $
 
