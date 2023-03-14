@@ -43,10 +43,10 @@ Minimal test suite that provides $C_1$ coverage but doesn't provide $C_i(2)$ cov
   </tr>   
   <tr style="text-align:center; width:100%;">  
     <td>2</td>  
-    <td>{1,2,3,5,6}</td>  
-    <td>2</td> 
-    <td>1</td>
+    <td>{2,3,5,6}</td>  
     <td>1</td> 
+    <td>-1</td>
+    <td>-1</td> 
   </tr>   
 </table>
 
