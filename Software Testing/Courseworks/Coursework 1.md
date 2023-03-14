@@ -101,7 +101,35 @@ The loop executes infintely for test inputs of x that don't exist in the array i
 
 ##### Task 07
 
-Considering the test suite written in 
+Considering the test suite written in Task 03 above, we can find an example.
+<table style="text-align:center; width:100%;">  
+  <tr style="background-color: #dddddd;">  
+    <th style="text-align:center">Test Case</th>  
+    <th style="text-align:center">Array []xs</th>  
+    <th style="text-align:center">Find x</th>  
+    <th style="text-align:center">Expected Output</th>
+    <th style="text-align:center">Observed Output</th>
+  </tr>  
+  <tr style="text-align:center; width:100%;">  
+    <td>1</td>  
+    <td>{1,2,3,5,6}</td>  
+    <td>5</td> 
+    <td>3</td>
+    <td>3</td>  
+  </tr>   
+  <tr style="text-align:center; width:100%;">  
+    <td>2</td>  
+    <td>{2,3,5,6}</td>  
+    <td>1</td> 
+    <td>-1</td>
+    <td>-1</td> 
+  </tr>   
+</table>
+In the second test case, the input for $x$ is 1 which is not in the input array and is lower than the smallest number in the input array. For that input $x = 1$, the expected and observed outputs are the same. 
+
+But considering the same test case, if we give an input that doesn't exist in the array and one that's higher than the smallest number, the expected output is $-1$ but that doesn't match with the observed output, which is an 'infinite loop'.
+
+That is a fault in the program that is not detected by the test suite. 
 
 ##### Task 08
 
