@@ -1,7 +1,7 @@
 **Group Members**
 
 Sudheer Paturi - 2232843
-Dominik
+Dominik Wieczynski - 2237383
 Pragun Joshi
 
 ---
@@ -22,7 +22,7 @@ flowchart LR
 
 The program doesn't have any unreachable nodes or infeasible edges. There is atleast one input for which each edge and node of the program is reachable.
 
-more explicit this input this execution path 
+[more explicit this input this execution path] 
 
 ##### Task 03
 Minimal test suite that provides $C_1$ coverage but doesn't provide $C_i(2)$ coverage.
