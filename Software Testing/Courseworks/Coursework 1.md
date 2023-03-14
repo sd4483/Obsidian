@@ -2,7 +2,7 @@
 
 Sudheer Paturi - 2232843
 Dominik Wieczynski - 2237383
-Pragun Joshi
+Pragun Joshi - 
 
 ---
 
@@ -20,7 +20,9 @@ flowchart LR
 
 ##### Task 02
 
-The program doesn't have any unreachable nodes or infeasible edges. There is atleast one input for which each edge and node of the program is reachable.
+The program doesn't have any unreachable nodes or infeasible edges. There is atleast one input for which, each edge and node of the program is reachable. 
+
+For example, if you give the inputs $[1,2,3,5,6,7,8,9,10]$ and $7$, the nodes $1,2,3,4,5,6,7,8,9,10,11$ 
 
 [more explicit this input this execution path] 
 
